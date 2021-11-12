@@ -64,6 +64,64 @@
         }
       }
     },
+    "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Query\\01_LampShadeQuery.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Query\\01_LampShadeQuery.csproj",
+        "projectName": "01_LampShadeQuery",
+        "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Query\\01_LampShadeQuery.csproj",
+        "packagesPath": "C:\\Users\\Peyman\\.nuget\\packages\\",
+        "outputPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Query\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Peyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\ServiceHost.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -279,6 +337,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Query\\01_LampShadeQuery.csproj": {
+                "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Query\\01_LampShadeQuery.csproj"
+              },
               "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Application.Contract\\ShopManagement.Application.Contracts.csproj": {
                 "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Application.Contract\\ShopManagement.Application.Contracts.csproj"
               },

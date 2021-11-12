@@ -204,7 +204,8 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
 
                     b.Property<string>("BtnText")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<DateTime>("CreationDate")
                         .HasColumnType("datetime2");
@@ -216,6 +217,10 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
 
                     b.Property<bool>("IsRemoved")
                         .HasColumnType("bit");
+
+                    b.Property<string>("Link")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Picture")
                         .IsRequired()
@@ -234,8 +239,8 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
 
                     b.Property<string>("Text")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("Title")
                         .IsRequired()

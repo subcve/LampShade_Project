@@ -15,3 +15,20 @@ D:\C# Projects\Lamp_Shade\ShopManagement.Domain\obj\Debug\net6.0\ref\ShopManagem
 D:\C# Projects\Lamp_Shade\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.pdb
 D:\C# Projects\Lamp_Shade\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
 D:\C# Projects\Lamp_Shade\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Domain.deps.json
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Domain.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\bin\Debug\net6.0\ref\ShopManagement.Domain.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Domain.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\bin\Debug\net6.0\0_Framework.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\bin\Debug\net6.0\0_Framework.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.csproj.AssemblyReference.cache
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.AssemblyInfoInputs.cache
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.AssemblyInfo.cs
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.csproj.CoreCompileInputs.cache
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.csproj.CopyComplete
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\obj\Debug\net6.0\ref\ShopManagement.Domain.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.pdb

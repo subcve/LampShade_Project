@@ -13,3 +13,18 @@ D:\C# Projects\Lamp_Shade\ShopManagement.Application.Contract\obj\Debug\net6.0\S
 D:\C# Projects\Lamp_Shade\ShopManagement.Application.Contract\obj\Debug\net6.0\ShopManagement.Application.Contracts.dll
 D:\C# Projects\Lamp_Shade\ShopManagement.Application.Contract\obj\Debug\net6.0\ref\ShopManagement.Application.Contracts.dll
 D:\C# Projects\Lamp_Shade\ShopManagement.Application.Contract\obj\Debug\net6.0\ShopManagement.Application.Contracts.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.deps.json
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Application.Contract\bin\Debug\net6.0\ref\ShopManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Application.Contract\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Application.Contract\bin\Debug\net6.0\0_Framework.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Application.Contract\bin\Debug\net6.0\0_Framework.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Application.Contract\obj\Debug\net6.0\ShopManagement.Application.Contracts.csproj.AssemblyReference.cache
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Application.Contract\obj\Debug\net6.0\ShopManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Application.Contract\obj\Debug\net6.0\ShopManagement.Application.Contracts.AssemblyInfoInputs.cache
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Application.Contract\obj\Debug\net6.0\ShopManagement.Application.Contracts.AssemblyInfo.cs
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Application.Contract\obj\Debug\net6.0\ShopManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Application.Contract\obj\Debug\net6.0\ShopManagement.Application.Contracts.csproj.CopyComplete
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Application.Contract\obj\Debug\net6.0\ShopManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Application.Contract\obj\Debug\net6.0\ref\ShopManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Application.Contract\obj\Debug\net6.0\ShopManagement.Application.Contracts.pdb

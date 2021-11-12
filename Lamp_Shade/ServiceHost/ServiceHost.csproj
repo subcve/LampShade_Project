@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\Theme\assets\fonts\IranianSans.svg" />
+    <Content Remove="wwwroot\Theme\assets\fonts\IranianSans.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="Areas\Administration\Pages\Index.cshtml" />
     <None Include="Areas\Administration\Pages\Shared\_AdminLayout.cshtml" />
     <None Include="Areas\Administration\Pages\Shared\_Menu.cshtml" />
@@ -230,6 +235,8 @@
     <None Include="wwwroot\lib\jquery\dist\jquery.js" />
     <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
     <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\Theme\assets\fonts\IranianSans.svg" />
+    <None Include="wwwroot\Theme\assets\fonts\IranianSans.woff2" />
   </ItemGroup>
 
   <ItemGroup>

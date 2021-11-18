@@ -1,0 +1,15 @@
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Application.Contracts\bin\Debug\net6.0\DiscountManagement.Application.Contracts.deps.json
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Application.Contracts\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Application.Contracts\bin\Debug\net6.0\ref\DiscountManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Application.Contracts\bin\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Application.Contracts\bin\Debug\net6.0\0_Framework.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Application.Contracts\bin\Debug\net6.0\0_Framework.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.csproj.AssemblyReference.cache
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.AssemblyInfoInputs.cache
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.AssemblyInfo.cs
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.csproj.CopyComplete
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\ref\DiscountManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contracts.pdb

@@ -144,3 +144,13 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\obj\Debug\net6.0\S
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\obj\Debug\net6.0\ServiceHost.genruntimeconfig.cache
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\01_LampShadeQuery.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\01_LampShadeQuery.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Configuration.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Domain.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Configuration.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Domain.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.pdb

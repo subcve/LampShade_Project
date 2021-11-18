@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\Theme\assets\fonts\IranianSans.svg" />
-    <Content Remove="wwwroot\Theme\assets\fonts\IranianSans.woff2" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="Areas\Administration\Pages\Index.cshtml" />
     <None Include="Areas\Administration\Pages\Shared\_AdminLayout.cshtml" />
     <None Include="Areas\Administration\Pages\Shared\_Menu.cshtml" />
@@ -235,8 +230,14 @@
     <None Include="wwwroot\lib\jquery\dist\jquery.js" />
     <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
     <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\Theme\assets\fonts\fontawesome-webfont3e6e.svg" />
+    <None Include="wwwroot\Theme\assets\fonts\fontawesome-webfont3e6e.woff2" />
+    <None Include="wwwroot\Theme\assets\fonts\ionicons28b5.svg" />
     <None Include="wwwroot\Theme\assets\fonts\IranianSans.svg" />
     <None Include="wwwroot\Theme\assets\fonts\IranianSans.woff2" />
+    <None Include="wwwroot\Theme\assets\js\active.js" />
+    <None Include="wwwroot\Theme\assets\js\ajax-mail.js" />
+    <None Include="wwwroot\Theme\assets\js\vendors.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -247,6 +248,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DiscountManagement.Configuration\DiscountManagement.Configuration.csproj" />
     <ProjectReference Include="..\ShopManagement.Application.Contract\ShopManagement.Application.Contracts.csproj" />
     <ProjectReference Include="..\ShopManagement.Configuration\ShopManagement.Configuration.csproj" />
   </ItemGroup>

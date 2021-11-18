@@ -1,10 +1,15 @@
+using DiscountManagement.Configuration;
 using ShopManagement.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+// config database information & bootstrappers
 var conecctionString = builder.Configuration.GetConnectionString("LambShadeDB");
 ShopManagementBootstrapper.Configure(builder.Services,conecctionString);
+DiscountManagementBootstrapper.Configure(builder.Services, conecctionString);
+
 builder.Services.AddRazorPages();
 var app = builder.Build();
 // Configure the HTTP request pipeline.

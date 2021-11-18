@@ -10,3 +10,15 @@ D:\C# Projects\Lamp_Shade\01_Framework\obj\Debug\net6.0\0_Framework.csproj.CoreC
 D:\C# Projects\Lamp_Shade\01_Framework\obj\Debug\net6.0\0_Framework.dll
 D:\C# Projects\Lamp_Shade\01_Framework\obj\Debug\net6.0\ref\0_Framework.dll
 D:\C# Projects\Lamp_Shade\01_Framework\obj\Debug\net6.0\0_Framework.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Framework\bin\Debug\net6.0\0_Framework.deps.json
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Framework\bin\Debug\net6.0\0_Framework.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Framework\bin\Debug\net6.0\ref\0_Framework.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Framework\bin\Debug\net6.0\0_Framework.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Framework\obj\Debug\net6.0\0_Framework.csproj.AssemblyReference.cache
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Framework\obj\Debug\net6.0\0_Framework.GeneratedMSBuildEditorConfig.editorconfig
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Framework\obj\Debug\net6.0\0_Framework.AssemblyInfoInputs.cache
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Framework\obj\Debug\net6.0\0_Framework.AssemblyInfo.cs
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Framework\obj\Debug\net6.0\0_Framework.csproj.CoreCompileInputs.cache
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Framework\obj\Debug\net6.0\0_Framework.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Framework\obj\Debug\net6.0\ref\0_Framework.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Framework\obj\Debug\net6.0\0_Framework.pdb

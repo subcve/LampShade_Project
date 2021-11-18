@@ -1,0 +1,460 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {}
+  },
+  "projects": {
+    "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Framework\\0_Framework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Framework\\0_Framework.csproj",
+        "projectName": "0_Framework",
+        "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Framework\\0_Framework.csproj",
+        "packagesPath": "C:\\Users\\Peyman\\.nuget\\packages\\",
+        "outputPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Framework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Peyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
+        "projectName": "DiscountManagement.Application.Contracts",
+        "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Peyman\\.nuget\\packages\\",
+        "outputPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\DiscountManagement.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Peyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Framework\\0_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "projectName": "DiscountManagement.Domain",
+        "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Peyman\\.nuget\\packages\\",
+        "outputPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\DiscountManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Peyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Framework\\0_Framework.csproj"
+              },
+              "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\DiscountManagement.Application.Contracts\\DiscountManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
+        "projectName": "DiscountManagement.Infrastructure.EFCore",
+        "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\Peyman\\.nuget\\packages\\",
+        "outputPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\DiscountManagement.Infrastructure.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Peyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+                "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+              },
+              "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Application.Contract\\ShopManagement.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Application.Contract\\ShopManagement.Application.Contracts.csproj",
+        "projectName": "ShopManagement.Application.Contracts",
+        "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Application.Contract\\ShopManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Peyman\\.nuget\\packages\\",
+        "outputPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Application.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Peyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Framework\\0_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectName": "ShopManagement.Domain",
+        "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Peyman\\.nuget\\packages\\",
+        "outputPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Peyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Framework\\0_Framework.csproj"
+              },
+              "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Application.Contract\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Application.Contract\\ShopManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
+        "projectName": "ShopManagement.Infrastructure.EFCore",
+        "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj",
+        "packagesPath": "C:\\Users\\Peyman\\.nuget\\packages\\",
+        "outputPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Infrastructure.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Peyman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Framework\\0_Framework.csproj": {
+                "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Framework\\0_Framework.csproj"
+              },
+              "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,17 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\01_Query\01_LampShadeQuery.csproj" />
-    <ProjectReference Include="..\ShopManagement.Application.Contract\ShopManagement.Application.Contracts.csproj" />
-    <ProjectReference Include="..\ShopManagement.Application\ShopManagement.Application.csproj" />
-    <ProjectReference Include="..\ShopManagement.Domain\ShopManagement.Domain.csproj" />
-    <ProjectReference Include="..\ShopManagement.Infrastructure.EFCore\ShopManagement.Infrastructure.EFCore.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\01_Query\01_LampShadeQuery.csproj" />
+		<ProjectReference Include="..\ShopManagement.Application.Contract\ShopManagement.Application.Contracts.csproj" />
+		<ProjectReference Include="..\ShopManagement.Application\ShopManagement.Application.csproj" />
+		<ProjectReference Include="..\ShopManagement.Domain\ShopManagement.Domain.csproj" />
+		<ProjectReference Include="..\ShopManagement.Infrastructure.EFCore\ShopManagement.Infrastructure.EFCore.csproj" />
+	</ItemGroup>
 
 </Project>

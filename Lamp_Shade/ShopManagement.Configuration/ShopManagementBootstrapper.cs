@@ -13,6 +13,7 @@ using ShopManagement.Infrastructure.EFCore;
 using ShopManagement.Infrastructure.EFCore.Repository;
 using _01_Query.Contracts.Slide;
 using _01_Query.Query;
+using _01_Query.Contracts.ProductCategory;
 
 namespace ShopManagement.Configuration
 {
@@ -22,6 +23,7 @@ namespace ShopManagement.Configuration
         {
             services.AddTransient<IProductCategoryApplication, ProductCategoryApplication>();
             services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
+            services.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
 
             services.AddTransient<IProductApplication, ProductApplication>();
             services.AddTransient<IProductRepository, ProductRepository>();
@@ -33,7 +35,8 @@ namespace ShopManagement.Configuration
             services.AddTransient<ISlideApplication, SlideApplication>();
             services.AddTransient<ISlideQuery, SlideQuery>();
 
-            services.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
+            services.AddDbContext<ShopContext>(c 
+                => c.UseSqlServer(connectionString));
         }
     }
 }

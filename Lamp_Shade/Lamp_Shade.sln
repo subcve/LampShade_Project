@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shop", "Shop", "{03B8ACD8-1DAB-4738-83B2-6B0308B35CEC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShopManagement", "ShopManagement", "{03B8ACD8-1DAB-4738-83B2-6B0308B35CEC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Domain", "SM.Domain", "{3221F95D-986E-453E-A2CB-2F23972918FF}"
 EndProject
@@ -25,7 +25,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0_Framework", "01_Framework
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Configuration", "ShopManagement.Configuration\ShopManagement.Configuration.csproj", "{62785F10-45AF-467D-B309-5A95F9704364}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_LampShadeQuery", "01_Query\01_LampShadeQuery.csproj", "{CE089B5D-D16D-400A-9BE5-367D53BF26E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_LampShadeQuery", "01_Query\01_LampShadeQuery.csproj", "{CE089B5D-D16D-400A-9BE5-367D53BF26E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DiscountManagement", "DiscountManagement", "{A30CF620-BE2E-4F2F-A19E-85E41F722BE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DM.Domain", "DM.Domain", "{F5749ED6-ABEB-4DA5-BBBC-74CCDC240ABD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DM.Application", "DM.Application", "{3811AC09-D912-417A-A16B-D7E18EE23DC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DM.Infrastructure", "DM.Infrastructure", "{24A3FE52-CCA4-46AC-BEBF-F80170089952}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountManagement.Domain", "DiscountManagement.Domain\DiscountManagement.Domain.csproj", "{1B91D509-A15B-40A5-9FA4-298A1F36D84A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountManagement.Application.Contracts", "DiscountManagement.Application.Contracts\DiscountManagement.Application.Contracts.csproj", "{76FDF59F-7F2B-46BA-B328-E3CBD758FF88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountManagement.Application", "DiscountManagement.Application\DiscountManagement.Application.csproj", "{BF24FE44-A97B-46E6-A104-A70E2E7DA0F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiscountManagement.Infrastructure.EFCore", "DiscountManagement.Infrastructure.EFCore\DiscountManagement.Infrastructure.EFCore.csproj", "{E75F99EB-20FD-4FBB-BCB8-11B08874F73F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountManagement.Configuration", "DiscountManagement.Configuration\DiscountManagement.Configuration.csproj", "{024F0794-04AD-4085-898B-4322EF5FD69D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +83,26 @@ Global
 		{CE089B5D-D16D-400A-9BE5-367D53BF26E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE089B5D-D16D-400A-9BE5-367D53BF26E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE089B5D-D16D-400A-9BE5-367D53BF26E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B91D509-A15B-40A5-9FA4-298A1F36D84A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B91D509-A15B-40A5-9FA4-298A1F36D84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B91D509-A15B-40A5-9FA4-298A1F36D84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B91D509-A15B-40A5-9FA4-298A1F36D84A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76FDF59F-7F2B-46BA-B328-E3CBD758FF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76FDF59F-7F2B-46BA-B328-E3CBD758FF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76FDF59F-7F2B-46BA-B328-E3CBD758FF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76FDF59F-7F2B-46BA-B328-E3CBD758FF88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF24FE44-A97B-46E6-A104-A70E2E7DA0F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF24FE44-A97B-46E6-A104-A70E2E7DA0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF24FE44-A97B-46E6-A104-A70E2E7DA0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF24FE44-A97B-46E6-A104-A70E2E7DA0F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E75F99EB-20FD-4FBB-BCB8-11B08874F73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E75F99EB-20FD-4FBB-BCB8-11B08874F73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E75F99EB-20FD-4FBB-BCB8-11B08874F73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E75F99EB-20FD-4FBB-BCB8-11B08874F73F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{024F0794-04AD-4085-898B-4322EF5FD69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024F0794-04AD-4085-898B-4322EF5FD69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024F0794-04AD-4085-898B-4322EF5FD69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024F0794-04AD-4085-898B-4322EF5FD69D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +116,14 @@ Global
 		{24934AF0-AA2A-493C-A32B-F5A2068045AB} = {1804C546-B683-41ED-BE4F-3E0830655162}
 		{F539ABDF-F49A-4D8D-8CF7-CF3FDBF602B4} = {892789EE-7EEB-4652-9177-0CA6A62ABD57}
 		{62785F10-45AF-467D-B309-5A95F9704364} = {892789EE-7EEB-4652-9177-0CA6A62ABD57}
+		{F5749ED6-ABEB-4DA5-BBBC-74CCDC240ABD} = {A30CF620-BE2E-4F2F-A19E-85E41F722BE4}
+		{3811AC09-D912-417A-A16B-D7E18EE23DC2} = {A30CF620-BE2E-4F2F-A19E-85E41F722BE4}
+		{24A3FE52-CCA4-46AC-BEBF-F80170089952} = {A30CF620-BE2E-4F2F-A19E-85E41F722BE4}
+		{1B91D509-A15B-40A5-9FA4-298A1F36D84A} = {F5749ED6-ABEB-4DA5-BBBC-74CCDC240ABD}
+		{76FDF59F-7F2B-46BA-B328-E3CBD758FF88} = {3811AC09-D912-417A-A16B-D7E18EE23DC2}
+		{BF24FE44-A97B-46E6-A104-A70E2E7DA0F6} = {3811AC09-D912-417A-A16B-D7E18EE23DC2}
+		{E75F99EB-20FD-4FBB-BCB8-11B08874F73F} = {24A3FE52-CCA4-46AC-BEBF-F80170089952}
+		{024F0794-04AD-4085-898B-4322EF5FD69D} = {24A3FE52-CCA4-46AC-BEBF-F80170089952}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4A1E9428-E52D-4C67-B5EB-E1C65B099EFE}

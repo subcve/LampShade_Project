@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tKWLSujd7XB5V1rLyJpgVo1PDB35MQj4dLGyKzb9Ka0=",
+  "Hash": "gCM4puw8OA992NQoSGnLqpeWZm3UjOsQr7OS4zAYQq8=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -6528,6 +6528,23 @@
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\fonts\\IranianSans.eot"
     },
     {
+      "Identity": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\IranianSans.svg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/fonts/IranianSans.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\fonts\\IranianSans.svg"
+    },
+    {
       "Identity": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\IranianSans.ttf",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
@@ -6560,6 +6577,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\fonts\\IranianSans.woff"
+    },
+    {
+      "Identity": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\Theme\\assets\\fonts\\IranianSans.woff2",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/fonts/IranianSans.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\fonts\\IranianSans.woff2"
     },
     {
       "Identity": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\backgrounds\\bkg_testimonials.jpg",
@@ -6936,6 +6970,23 @@
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\blog\\slider\\5-370x235.jpg"
     },
     {
+      "Identity": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img1.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/img/category/img1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img1.jpg"
+    },
+    {
       "Identity": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img1-top-eposi1.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
@@ -6951,6 +7002,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img1-top-eposi1.jpg"
+    },
+    {
+      "Identity": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img2.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/img/category/img2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img2.jpg"
     },
     {
       "Identity": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img2-top-eposi1.jpg",
@@ -6970,6 +7038,23 @@
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img2-top-eposi1.jpg"
     },
     {
+      "Identity": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img3.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/img/category/img3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img3.jpg"
+    },
+    {
       "Identity": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img3-top-eposi1.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
@@ -6985,6 +7070,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img3-top-eposi1.jpg"
+    },
+    {
+      "Identity": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img4.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/img/category/img4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img4.jpg"
     },
     {
       "Identity": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img4-top-eposi1.jpg",

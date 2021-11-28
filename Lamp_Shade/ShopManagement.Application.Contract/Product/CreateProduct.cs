@@ -18,7 +18,7 @@ namespace ShopManagement.Application.Contracts.Product
         public double UnitPrice { get; set; }
 
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
-        [MaxLength(500,ErrorMessage = ValidationMessages.MaxLength)]
+        [MaxLength(150,ErrorMessage = ValidationMessages.MaxLength)]
         public string ShortDescription { get; set; }
         [MaxLength(500, ErrorMessage = ValidationMessages.MaxLength)]
         public string Description { get; set; }

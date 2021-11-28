@@ -15,3 +15,5 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Domain\obj\
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Domain\obj\Debug\net6.0\DiscountManagement.Domain.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Domain\obj\Debug\net6.0\ref\DiscountManagement.Domain.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Domain\obj\Debug\net6.0\DiscountManagement.Domain.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb

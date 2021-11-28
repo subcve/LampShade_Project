@@ -15,6 +15,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Discounts/ColleagueDiscounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXENvbGxlYWd1ZURpc2NvdW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Discounts/ColleagueDiscounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXENvbGxlYWd1ZURpc2NvdW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Discounts/ColleagueDiscounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXENvbGxlYWd1ZURpc2NvdW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Discounts/CustomerDiscounts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXEN1c3RvbWVyRGlzY291bnRzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Discounts/CustomerDiscounts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXEN1c3RvbWVyRGlzY291bnRzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Discounts/CustomerDiscounts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXEN1c3RvbWVyRGlzY291bnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

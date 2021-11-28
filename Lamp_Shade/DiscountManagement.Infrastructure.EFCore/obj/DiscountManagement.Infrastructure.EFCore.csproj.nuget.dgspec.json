@@ -90,6 +90,9 @@
             "projectReferences": {
               "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Framework\\0_Framework.csproj": {
                 "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\01_Framework\\0_Framework.csproj"
+              },
+              "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Application.Contract\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Application.Contract\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }

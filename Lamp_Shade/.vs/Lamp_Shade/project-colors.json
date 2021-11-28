@@ -75,7 +75,12 @@
       "ProjectGuid": "697c3446-9034-481b-9c91-7612567b2321",
       "DisplayName": "DiscountManagement.Configuration",
       "ColorIndex": 13
+    },
+    "024f0794-04ad-4085-898b-4322ef5fd69d": {
+      "ProjectGuid": "024f0794-04ad-4085-898b-4322ef5fd69d",
+      "DisplayName": "DiscountManagement.Configuration",
+      "ColorIndex": 14
     }
   },
-  "NextColorIndex": 14
+  "NextColorIndex": 15
 }

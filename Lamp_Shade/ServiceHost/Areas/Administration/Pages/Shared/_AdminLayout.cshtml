@@ -1,11 +1,12 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Coderthemes">
 
-    <link rel="shortcut icon" href="images/favicon_1.ico">
+    <link rel="shortcut icon" href="~/favicon.ico">
 
     <title>@ViewData["Title"] | Lampshade Shop</title>
     <meta name="keywords" content="" />
@@ -30,14 +31,12 @@
     <!-- sweet alerts -->
     <link href="~/AdminTheme/assets/sweet-alert/sweet-alert.min.css" rel="stylesheet">
 
-    <!--persian date picker-->
-    <link href="~/AdminTheme/assets/css/persian-datepicker.min.css" rel="stylesheet" />
-
     <!-- Custom Files -->
+    <link href="~/AdminTheme/assets/css/persian-datepicker.css" rel="stylesheet" />
+
     <link href="~/AdminTheme/assets/css/helper.css" rel="stylesheet" type="text/css" />
     <link href="~/AdminTheme/assets/css/style.css" rel="stylesheet" type="text/css" />
     <script src="~/AdminTheme/assets/js/modernizr.min.js"></script>
-
 </head>
 
 <body class="fixed-left">
@@ -64,15 +63,18 @@
                         </div>
                         <form class="navbar-form pull-left" role="search">
                             <div class="form-group">
-                                <input type="text" class="form-control search-bar" placeholder="Type here for search...">
+                                <input type="text" class="form-control search-bar"
+                                    placeholder="Type here for search...">
                             </div>
                             <button type="submit" class="btn btn-search"><i class="fa fa-search"></i></button>
                         </form>
 
                         <ul class="nav navbar-nav navbar-right pull-right">
                             <li class="dropdown hidden-xs">
-                                <a href="#" data-target="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-expanded="true">
-                                    <i class="md md-notifications"></i> <span class="badge badge-xs badge-danger">3</span>
+                                <a href="#" data-target="#" class="dropdown-toggle waves-effect waves-light"
+                                    data-toggle="dropdown" aria-expanded="true">
+                                    <i class="md md-notifications"></i> <span
+                                        class="badge badge-xs badge-danger">3</span>
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-lg">
                                     <li class="text-center notifi-title">Notification</li>
@@ -130,12 +132,15 @@
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="" class="dropdown-toggle profile" data-toggle="dropdown" aria-expanded="true"><img src="~/AdminTheme/assets/images/avatar-1.jpg" alt="user-img" class="img-circle"> </a>
+                                <a href="" class="dropdown-toggle profile" data-toggle="dropdown"
+                                    aria-expanded="true"><img src="~/AdminTheme/assets/images/avatar-1.jpg"
+                                        alt="user-img" class="img-circle"> </a>
                                 <ul class="dropdown-menu">
                                     <li><a href="javascript:void(0)"><i class="md md-face-unlock"></i> Profile</a></li>
                                     <li><a href="javascript:void(0)"><i class="md md-settings"></i> Settings</a></li>
                                     <li><a href="javascript:void(0)"><i class="md md-lock"></i> Lock screen</a></li>
-                                    <li><a href="javascript:void(0)"><i class="md md-settings-power"></i> Logout</a></li>
+                                    <li><a href="javascript:void(0)"><i class="md md-settings-power"></i> Logout</a>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
@@ -165,14 +170,15 @@
         </div>
     </div>
 
-    <div id="MainModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div id="MainModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"
+        style="display: none;">
         <div class="modal-dialog">
             <div class="modal-content" id="ModalContent">
             </div>
         </div>
     </div>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/AdminTheme/assets/js/jquery.min.js"></script>
     <script src="~/AdminTheme/assets/js/bootstrap.min.js"></script>
     <script src="~/AdminTheme/assets/js/waves.js"></script>
     <script src="~/AdminTheme/assets/js/wow.min.js"></script>
@@ -191,13 +197,13 @@
 
     <!-- flot Chart -->
     <script src="~/AdminTheme/assets/flot-chart/jquery.flot.js"></script>
-    <script src="~/AdminTheme/assets/flot-chart/jquery.flot.time.js"></script>
-    <script src="~/AdminTheme/assets/flot-chart/jquery.flot.tooltip.min.js"></script>
-    <script src="~/AdminTheme/assets/flot-chart/jquery.flot.resize.js"></script>
-    <script src="~/AdminTheme/assets/flot-chart/jquery.flot.pie.js"></script>
-    <script src="~/AdminTheme/assets/flot-chart/jquery.flot.selection.js"></script>
-    <script src="~/AdminTheme/assets/flot-chart/jquery.flot.stack.js"></script>
-    <script src="~/AdminTheme/assets/flot-chart/jquery.flot.crosshair.js"></script>
+        <script src="~/AdminTheme/assets/flot-chart/jquery.flot.time.js"></script>
+        <script src="~/AdminTheme/assets/flot-chart/jquery.flot.tooltip.min.js"></script>
+        <script src="~/AdminTheme/assets/flot-chart/jquery.flot.resize.js"></script>
+        <script src="~/AdminTheme/assets/flot-chart/jquery.flot.pie.js"></script>
+        <script src="~/AdminTheme/assets/flot-chart/jquery.flot.selection.js"></script>
+        <script src="~/AdminTheme/assets/flot-chart/jquery.flot.stack.js"></script>
+        <script src="~/AdminTheme/assets/flot-chart/jquery.flot.crosshair.js"></script>
 
     <!-- Counter-up -->
     <script src="~/AdminTheme/assets/counterup/waypoints.min.js" type="text/javascript"></script>
@@ -222,16 +228,22 @@
 
     <script src="~/AdminTheme/assets/js/site.js"></script>
 
-    <script src="~/AdminTheme/assets/js/persian-date.min.js"></script>
-    <script src="~/AdminTheme/assets/js/persian-datepicker.min.js"></script>
+    <script src="~/AdminTheme/assets/js/persian-date.js"></script>
+    <script src="~/AdminTheme/assets/js/persian-datepicker.js"></script>
 
     @RenderSection("Scripts", false)
 
     <script>
-       $('.observer-example').persianDatepicker({         
+        //$('.persianDateInput').persianDatepicker({
+        //    format: 'YYYY/MM/DD',
+        //    autoClose: true
+        //});
+        $('.observer-example').persianDatepicker({
+            //observer: true,
             format: 'YYYY/MM/DD',
-            autoClose:true
+            autoClose: true
         });
     </script>
 </body>
+
 </html>

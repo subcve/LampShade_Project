@@ -6,7 +6,6 @@ namespace ServiceHost.ViewComponents
     public class ProductCategoryViewComponent : ViewComponent
     {
         private readonly IProductCategoryQuery _productCategoryQuery;
-
         public ProductCategoryViewComponent(IProductCategoryQuery productCategoryQuery)
         {
             _productCategoryQuery = productCategoryQuery;

@@ -148,6 +148,8 @@
     <None Include="wwwroot\AdminTheme\assets\js\jquery.todo.js" />
     <None Include="wwwroot\AdminTheme\assets\js\modernizr.min.js" />
     <None Include="wwwroot\AdminTheme\assets\js\npm.js" />
+    <None Include="wwwroot\AdminTheme\assets\js\persian-date.min.js" />
+    <None Include="wwwroot\AdminTheme\assets\js\persian-datepicker.min.js" />
     <None Include="wwwroot\AdminTheme\assets\js\site.js" />
     <None Include="wwwroot\AdminTheme\assets\js\skycons.min.js" />
     <None Include="wwwroot\AdminTheme\assets\js\waves.js" />

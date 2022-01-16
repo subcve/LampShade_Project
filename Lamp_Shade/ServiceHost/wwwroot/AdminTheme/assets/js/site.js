@@ -35,7 +35,7 @@ $(document).ready(function () {
     $("#MainModal").on("shown.bs.modal",
         function () {
             window.location.hash = "##";
-            $('.persianDateInput').persianDatepicker({
+            $('.observer-example').persianDatepicker({
                 format: 'YYYY/MM/DD',
                 autoClose: true
             });
@@ -79,7 +79,7 @@ function CallBackHandler(data, action, form) {
             alert(data.Message);
             break;
         case "Refresh":
-            if (data.isSuccedded) {
+            if (data.isSucceed) {
                 window.location.reload();
             } else {
                 alert(data.message);

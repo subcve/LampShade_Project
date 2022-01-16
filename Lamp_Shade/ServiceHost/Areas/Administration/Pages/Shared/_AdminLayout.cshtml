@@ -33,6 +33,7 @@
 
     <!-- Custom Files -->
     <link href="~/AdminTheme/assets/css/persian-datepicker.css" rel="stylesheet" />
+    <link href="~/AdminTheme/assets/css/NotifStyle.css" rel="stylesheet">
 
     <link href="~/AdminTheme/assets/css/helper.css" rel="stylesheet" type="text/css" />
     <link href="~/AdminTheme/assets/css/style.css" rel="stylesheet" type="text/css" />
@@ -196,7 +197,7 @@
     <script src="~/AdminTheme/assets/sweet-alert/sweet-alert.init.js"></script>
 
     <!-- flot Chart -->
-    <script src="~/AdminTheme/assets/flot-chart/jquery.flot.js"></script>
+        <script src="~/AdminTheme/assets/flot-chart/jquery.flot.js"></script>
         <script src="~/AdminTheme/assets/flot-chart/jquery.flot.time.js"></script>
         <script src="~/AdminTheme/assets/flot-chart/jquery.flot.tooltip.min.js"></script>
         <script src="~/AdminTheme/assets/flot-chart/jquery.flot.resize.js"></script>
@@ -230,19 +231,17 @@
 
     <script src="~/AdminTheme/assets/js/persian-date.js"></script>
     <script src="~/AdminTheme/assets/js/persian-datepicker.js"></script>
-
+    <script src="~/AdminTheme/assets/js/Index.var.js"></script>
     @RenderSection("Scripts", false)
 
     <script>
-        //$('.persianDateInput').persianDatepicker({
-        //    format: 'YYYY/MM/DD',
-        //    autoClose: true
-        //});
         $('.observer-example').persianDatepicker({
-            //observer: true,
             format: 'YYYY/MM/DD',
             autoClose: true
         });
+    </script>
+    <script>
+        let notifier = new AWN(globalOptions);
     </script>
 </body>
 

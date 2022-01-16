@@ -16417,8 +16417,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Areas\\Administration\\Pages\\Inventory\\OperationsLog.cshtml",
+      "TargetPath": "Areas\\Administration\\Pages\\Inventory\\OperationsLog.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Areas\\Administration\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Areas\\Administration\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Areas\\Administration\\Pages\\Inventory\\Edit.cshtml",
+      "TargetPath": "Areas\\Administration\\Pages\\Inventory\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16442,6 +16452,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Areas\\Administration\\Pages\\Inventory\\Increase.cshtml",
+      "TargetPath": "Areas\\Administration\\Pages\\Inventory\\Increase.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Areas\\Administration\\Pages\\Shop\\Products\\Index.cshtml",
       "TargetPath": "Areas\\Administration\\Pages\\Shop\\Products\\Index.cshtml",
       "FileKind": "mvc"
@@ -16452,8 +16467,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Areas\\Administration\\Pages\\Inventory\\Index.cshtml",
+      "TargetPath": "Areas\\Administration\\Pages\\Inventory\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Areas\\Administration\\Pages\\Discounts\\CustomerDiscounts\\Edit.cshtml",
       "TargetPath": "Areas\\Administration\\Pages\\Discounts\\CustomerDiscounts\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Areas\\Administration\\Pages\\Inventory\\Create.cshtml",
+      "TargetPath": "Areas\\Administration\\Pages\\Inventory\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16509,6 +16534,11 @@
     {
       "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Areas\\Administration\\Pages\\Shared\\_AdminLayout.cshtml",
       "TargetPath": "Areas\\Administration\\Pages\\Shared\\_AdminLayout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Areas\\Administration\\Pages\\Inventory\\Reduce.cshtml",
+      "TargetPath": "Areas\\Administration\\Pages\\Inventory\\Reduce.cshtml",
       "FileKind": "mvc"
     },
     {

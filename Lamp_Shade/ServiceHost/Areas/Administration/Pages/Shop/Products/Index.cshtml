@@ -64,7 +64,6 @@
                                     <th>نام</th>
                                     <th>کد</th>
                                     <th>گروه</th>
-                                    <th>قیمت</th>
                                     <th>موجودی</th>
                                     <th>تاریخ تولید</th>
                                     <th>عملیات</th>
@@ -81,7 +80,6 @@
                                         <td>@item.Name</td>
                                         <td>@item.Code</td>
                                         <td>@item.Category</td>
-                                        <td>@item.UnitPrice</td>
                                         <td class="text-center">
                                             @if (item.IsInStock)
                                             {
@@ -100,12 +98,12 @@
                                             </a>
                                             @if (item.IsInStock)
                                             {
-                                                <a asp-page="./Index" asp-page-handler="NotInStock" asp-route-id="@item.Id"
+                                                <a  asp-page="./Index" asp-page-handler="NotInStock" asp-route-id="@item.Id"
                                                    class="btn btn-danger btn-custom waves-effect waves-light m-b-5">اتمام موجودی!</a>
                                             }
                                             else
                                             {
-                                                <a asp-page="./Index" asp-page-handler="IsInStock" asp-route-id="@item.Id"
+                                                <a  asp-page="./Index" asp-page-handler="IsInStock" asp-route-id="@item.Id"
                                                    class="btn btn-success btn-custom waves-effect waves-light m-b-5">موجود شد!</a>
                                             }
                                         </td>

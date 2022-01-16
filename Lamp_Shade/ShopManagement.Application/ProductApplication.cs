@@ -21,7 +21,7 @@ namespace ShopManagement.Application
             if (_productRepository.Exists(c => c.Name == command.Name))
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
             var slug = command.Slug.Slugify();
-            var product = new Product(command.Name, command.Code, command.UnitPrice, command.ShortDescription,
+            var product = new Product(command.Name, command.Code, command.ShortDescription,
                 command.Description, command.Picture, command.PictureAlt, command.PictureTitle, command.Keywords,
                 command.MetaDescription, slug, command.CategoryId);
             _productRepository.Create(product);
@@ -41,7 +41,7 @@ namespace ShopManagement.Application
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var slug = command.Slug.Slugify();
-            product.Edit(command.Name, command.Code, command.UnitPrice, command.ShortDescription,
+            product.Edit(command.Name, command.Code, command.ShortDescription,
                 command.Description, command.Picture, command.PictureAlt, command.PictureTitle, command.Keywords,
                 command.MetaDescription, slug, command.CategoryId);
 

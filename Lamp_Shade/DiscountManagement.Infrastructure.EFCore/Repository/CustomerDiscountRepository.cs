@@ -61,7 +61,7 @@ namespace DiscountManagement.Infrastructure.EFCore.Repository
             var discounts = query.OrderByDescending(c => c.Id).ToList();
 
             discounts.ForEach(z =>
-            z.Product = products.FirstOrDefault(c => c.Id == z.Id)?.Name);
+            z.Product = products.FirstOrDefault(c => c.Id  == z.ProductId)?.Name);
 
             return discounts;
         }

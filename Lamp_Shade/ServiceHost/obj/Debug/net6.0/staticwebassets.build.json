@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Duhh2yf/OnecR28aOMRcdKS1HXVqVWj2nElCu9q5dwY=",
+  "Hash": "77fZnf8yFeD3xQ94bMKNOJPBk6FTIAr54JPiXnfJIAo=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -729,6 +729,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\AdminTheme\\assets\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Identity": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\NotifStyle.css",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "AdminTheme/assets/css/NotifStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AdminTheme\\assets\\css\\NotifStyle.css"
     },
     {
       "Identity": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\AdminTheme\\assets\\css\\persian-datepicker.css",
@@ -3364,6 +3381,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\AdminTheme\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Identity": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\index.var.js",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "AdminTheme/assets/js/index.var.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\AdminTheme\\assets\\js\\index.var.js"
     },
     {
       "Identity": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\AdminTheme\\assets\\js\\jquery-ui-1.10.1.custom.min.js",

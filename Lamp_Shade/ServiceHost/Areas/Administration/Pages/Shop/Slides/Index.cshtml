@@ -66,12 +66,12 @@
                                             </a>
                                             @if (!item.IsRemoved)
                                             {
-                                                <a asp-page="./Index" asp-page-handler="Remove" asp-route-id="@item.Id"
+                                                <a  asp-page="./Index" asp-page-handler="Remove" asp-route-id="@item.Id"
                                                    class="btn btn-danger btn-custom waves-effect waves-light m-b-5">حذف</a>
                                             }
                                             else
                                             {
-                                                <a asp-page="./Index" asp-page-handler="Restore" asp-route-id="@item.Id"
+                                                <a  asp-page="./Index" asp-page-handler="Restore" asp-route-id="@item.Id"
                                                    class="btn btn-success btn-custom waves-effect waves-light m-b-5">فعال سازی</a>
                                             }
                                         </td>

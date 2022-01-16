@@ -154,3 +154,13 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\obj\Debug\net6.0\S
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\obj\Debug\net6.0\ref\ServiceHost.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\obj\Debug\net6.0\ServiceHost.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\obj\Debug\net6.0\ServiceHost.genruntimeconfig.cache
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Domain.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Application.Contracts.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Domain.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Application.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Application.pdb

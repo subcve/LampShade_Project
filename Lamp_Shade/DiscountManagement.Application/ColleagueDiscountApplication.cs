@@ -18,7 +18,7 @@ namespace DiscountManagement.Application
             OperationResult operation = new OperationResult();
             if (command == null)
                 return operation.Failed(ApplicationMessages.NullRecord);
-            if (_colleagueDiscountRepository.Exists(c => c.ProductId == command.ProductId /* && c.DiscountRate == command.DiscountRate*/))
+            if (_colleagueDiscountRepository.Exists(c => c.ProductId == command.ProductId ))
                 operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var discount = new ColleagueDiscount(command.ProductId, command.DiscountRate);

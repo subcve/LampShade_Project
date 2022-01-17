@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ShopManagement.Infrastructure.EFCore.Migrations
 {
-    public partial class InitialDB : Migration
+    public partial class Init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -16,10 +16,10 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
                     Id = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
-                    Picture = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true),
-                    PictureAlt = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
-                    PictureTitle = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
+                    Description = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
+                    Picture = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false),
+                    PictureAlt = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    PictureTitle = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
                     Keywords = table.Column<string>(type: "nvarchar(80)", maxLength: 80, nullable: false),
                     MetaDescription = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
                     Slug = table.Column<string>(type: "nvarchar(300)", maxLength: 300, nullable: false),
@@ -40,9 +40,10 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
                     PictureTitle = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
                     PictureAlt = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
                     Heading = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
-                    Title = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
-                    Text = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
-                    BtnText = table.Column<string>(type: "nvarchar(max)",maxLength:50, nullable: false),
+                    Title = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    Text = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    BtnText = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Link = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IsRemoved = table.Column<bool>(type: "bit", nullable: false),
                     CreationDate = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
@@ -59,13 +60,12 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
                     Code = table.Column<string>(type: "nvarchar(15)", maxLength: 15, nullable: false),
-                    UnitPrice = table.Column<double>(type: "float", nullable: false),
                     IsInStock = table.Column<bool>(type: "bit", nullable: false),
                     ShortDescription = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
-                    Picture = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true),
-                    PictureAlt = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: true),
-                    PictureTitle = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
+                    Description = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
+                    Picture = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: false),
+                    PictureAlt = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    PictureTitle = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
                     Keywords = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     MetaDescription = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
                     Slug = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),

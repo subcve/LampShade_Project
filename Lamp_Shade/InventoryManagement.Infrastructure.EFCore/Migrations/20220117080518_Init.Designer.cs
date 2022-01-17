@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace InventoryManagement.Infrastructure.EFCore.Migrations
 {
     [DbContext(typeof(InventoryContext))]
-    [Migration("20220111111303_RefactorInventoryAddProductDomain")]
-    partial class RefactorInventoryAddProductDomain
+    [Migration("20220117080518_Init")]
+    partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

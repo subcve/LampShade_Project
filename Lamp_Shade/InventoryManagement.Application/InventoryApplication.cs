@@ -79,6 +79,9 @@ namespace InventoryManagement.Application
             var inventory = _inventoryRepository.Get(command.InventoryId);
             if (inventory == null)
                 return operation.Failed(ApplicationMessages.RecordNotFound);
+
+            if (inventory.CalculateCurrentCount()<command.Count)
+                return operation.Failed("مقدار مورد نظر از موجودی انبار بیشتر است");
             const long operatorId = 1;
             inventory.Reduce(command.Count, operatorId, command.Description, 0);
             _inventoryRepository.SaveChanges();

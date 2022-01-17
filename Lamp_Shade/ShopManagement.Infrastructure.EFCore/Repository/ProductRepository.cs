@@ -50,7 +50,6 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                     Picture = c.Picture,
                     Category = c.Category.Name,
                     CategoryId = c.CategoryId,
-                    IsInStock = c.IsInStock,
                     CreationDate = c.CreationDate.ToFarsi()
                 });
             if (!string.IsNullOrWhiteSpace(searchModel.Name))

@@ -4,23 +4,23 @@
 
 namespace ShopManagement.Infrastructure.EFCore.Migrations
 {
-    public partial class RemoveUnitPriceFromProductTable : Migration
+    public partial class RemoveIsInStockFromProductTable : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "UnitPrice",
+                name: "IsInStock",
                 table: "Products");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.AddColumn<double>(
-                name: "UnitPrice",
+            migrationBuilder.AddColumn<bool>(
+                name: "IsInStock",
                 table: "Products",
-                type: "float",
+                type: "bit",
                 nullable: false,
-                defaultValue: 0.0);
+                defaultValue: false);
         }
     }
 }

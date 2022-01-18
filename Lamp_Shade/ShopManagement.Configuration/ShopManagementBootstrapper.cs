@@ -14,6 +14,7 @@ using ShopManagement.Infrastructure.EFCore.Repository;
 using _01_Query.Contracts.Slide;
 using _01_Query.Query;
 using _01_Query.Contracts.ProductCategory;
+using _01_Query.Contracts.Product;
 
 namespace ShopManagement.Configuration
 {
@@ -27,6 +28,7 @@ namespace ShopManagement.Configuration
 
             services.AddTransient<IProductApplication, ProductApplication>();
             services.AddTransient<IProductRepository, ProductRepository>();
+            services.AddTransient<IProductQuery, ProductQuery>();
 
             services.AddTransient<IProductPictureApplication, ProductPictureApplication>();
             services.AddTransient<IProductPictureRepository, ProductPictureRepository>();

@@ -46,3 +46,15 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Configuration\o
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Configuration\obj\Debug\net6.0\ShopManagement.Configuration.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Configuration\obj\Debug\net6.0\ref\ShopManagement.Configuration.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Configuration\obj\Debug\net6.0\ShopManagement.Configuration.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Domain.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Application.Contracts.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Domain.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Domain.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Domain.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.pdb

@@ -23,6 +23,8 @@ namespace DiscountManagement.Application
 
             if (_customerDiscountRepository.Exists(c => c.ProductId == command.ProductId && c.DiscountRate == command.DiscountRate))
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
+            if(command.StartDate == command.EndDate)
+                return operation.Failed("زمان اتمام تخفیف باید بعد از روز ایجاد آن باشد");
 
             var startDate = command.StartDate.ToGeorgianDateTime();
             var endDate = command.EndDate.ToGeorgianDateTime();
@@ -39,9 +41,7 @@ namespace DiscountManagement.Application
             OperationResult operation = new OperationResult();
 
             var discount = _customerDiscountRepository.Get(command.Id);
-
-            if (discount == null)
-                return operation.Failed(ApplicationMessages.RecordNotFound);
+            
             if (_customerDiscountRepository.Exists(c => c.ProductId == command.ProductId && c.DiscountRate == command.DiscountRate && c.Id != command.Id))
                 return operation.Failed(ApplicationMessages.RecordNotFound);
 

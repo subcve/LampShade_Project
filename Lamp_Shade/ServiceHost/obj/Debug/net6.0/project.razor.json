@@ -14245,6 +14245,23 @@
         }
       },
       {
+        "HashCode": -1393471725,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__LatestArrivalsViewComponentTagHelper",
+        "AssemblyName": "ServiceHost",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:latest-arrivals"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__LatestArrivalsViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "LatestArrivals"
+        }
+      },
+      {
         "HashCode": -1104208886,
         "Kind": "MVC.ViewComponent",
         "Name": "__Generated__ProductCategoryViewComponentTagHelper",
@@ -14259,6 +14276,23 @@
           "Runtime.Name": "ITagHelper",
           "Common.TypeName": "__Generated__ProductCategoryViewComponentTagHelper",
           "MVC.ViewComponent.Name": "ProductCategory"
+        }
+      },
+      {
+        "HashCode": -197702935,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__ProductCategoryWithProductViewComponentTagHelper",
+        "AssemblyName": "ServiceHost",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:product-category-with-product"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__ProductCategoryWithProductViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "ProductCategoryWithProduct"
         }
       },
       {
@@ -16367,6 +16401,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Pages\\Shared\\Components\\LatestArrivals\\Default.cshtml",
+      "TargetPath": "Pages\\Shared\\Components\\LatestArrivals\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Pages\\Shared\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -16439,6 +16478,11 @@
     {
       "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Areas\\Administration\\Pages\\Shop\\ProductCategories\\Index.cshtml",
       "TargetPath": "Areas\\Administration\\Pages\\Shop\\ProductCategories\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Pages\\Shared\\Components\\ProductCategoryWithProduct\\Default.cshtml",
+      "TargetPath": "Pages\\Shared\\Components\\ProductCategoryWithProduct\\Default.cshtml",
       "FileKind": "mvc"
     },
     {

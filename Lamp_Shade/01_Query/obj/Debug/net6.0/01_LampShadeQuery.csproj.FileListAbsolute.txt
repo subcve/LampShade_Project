@@ -19,3 +19,15 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\obj\Debug\net6.0\01_L
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\obj\Debug\net6.0\01_LampShadeQuery.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\obj\Debug\net6.0\ref\01_LampShadeQuery.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\obj\Debug\net6.0\01_LampShadeQuery.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\InventoryManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\InventoryManagement.Domain.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\InventoryManagement.Domain.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\InventoryManagement.Application.Contracts.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\DiscountManagement.Domain.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\DiscountManagement.Domain.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\DiscountManagement.Application.Contracts.pdb

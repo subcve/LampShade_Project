@@ -14313,6 +14313,23 @@
         }
       },
       {
+        "HashCode": -1263808593,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MenuViewComponentTagHelper",
+        "AssemblyName": "ServiceHost",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:menu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MenuViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Menu"
+        }
+      },
+      {
         "HashCode": 141407075,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -16456,6 +16473,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Pages\\Shared\\_Footer.cshtml",
+      "TargetPath": "Pages\\Shared\\_Footer.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Areas\\Administration\\Pages\\Inventory\\OperationsLog.cshtml",
       "TargetPath": "Areas\\Administration\\Pages\\Inventory\\OperationsLog.cshtml",
       "FileKind": "mvc"
@@ -16503,6 +16525,11 @@
     {
       "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Areas\\Administration\\Pages\\Shop\\Products\\Index.cshtml",
       "TargetPath": "Areas\\Administration\\Pages\\Shop\\Products\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Pages\\Shared\\Components\\Menu\\Default.cshtml",
+      "TargetPath": "Pages\\Shared\\Components\\Menu\\Default.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16578,6 +16605,11 @@
     {
       "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Areas\\Administration\\Pages\\Shared\\_AdminLayout.cshtml",
       "TargetPath": "Areas\\Administration\\Pages\\Shared\\_AdminLayout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Pages\\ProductCategory.cshtml",
+      "TargetPath": "Pages\\ProductCategory.cshtml",
       "FileKind": "mvc"
     },
     {

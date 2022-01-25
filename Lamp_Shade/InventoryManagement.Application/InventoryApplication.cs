@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-using _0_Framework.Application;
+﻿using _0_Framework.Application;
 using InventoryManagement.Application.Contracts.Inventory;
 using InventoryManagement.Domain.InventoryAgg;
 
@@ -13,7 +12,6 @@ namespace InventoryManagement.Application
         {
             _inventoryRepository = inventoryRepository;
         }
-
         public OperationResult Create(CreateInventory command)
         {
             var operation = new OperationResult();

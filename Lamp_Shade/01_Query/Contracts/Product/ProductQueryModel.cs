@@ -18,6 +18,8 @@ namespace _01_Query.Contracts.Product
         public int DiscountRate { get;  set; }
         public bool HasDiscount { get; set; }
         
+        public string DiscountExpireDate { get; set; }
+        
         
     }
 }

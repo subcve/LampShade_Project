@@ -9,7 +9,7 @@ namespace InventoryManagement.Infrastructure.Configuration
 {
     public class InventoryManagementBootstarpper
     {
-        public static void Configure(IServiceCollection services, string connectionString)
+            public static void Configure(IServiceCollection services, string connectionString)
         {
             services.AddTransient<IInventoryRepository, InventoryRepository>();
             services.AddTransient<IInventoryApplication, InventoryApplication>();

@@ -4,5 +4,6 @@
     {
         List<ProductCategoryQueryModel> GetProductCategories();
         List<ProductCategoryQueryModel> GetProductCategoriesWithProducts();
+        ProductCategoryQueryModel GetProductCategoriesWithProductsBy(string slug);
     }
 }

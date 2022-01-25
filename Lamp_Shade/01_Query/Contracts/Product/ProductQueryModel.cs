@@ -20,6 +20,9 @@ namespace _01_Query.Contracts.Product
         
         public string DiscountExpireDate { get; set; }
         
+        public string CategorySlug { get; set; }
+        
+        public string ShortDescription { get; set; }
         
     }
 }

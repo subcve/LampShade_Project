@@ -14262,6 +14262,23 @@
         }
       },
       {
+        "HashCode": -1263808593,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__MenuViewComponentTagHelper",
+        "AssemblyName": "ServiceHost",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:menu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__MenuViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Menu"
+        }
+      },
+      {
         "HashCode": -1104208886,
         "Kind": "MVC.ViewComponent",
         "Name": "__Generated__ProductCategoryViewComponentTagHelper",
@@ -14310,23 +14327,6 @@
           "Runtime.Name": "ITagHelper",
           "Common.TypeName": "__Generated__SlideViewComponentTagHelper",
           "MVC.ViewComponent.Name": "Slide"
-        }
-      },
-      {
-        "HashCode": -1263808593,
-        "Kind": "MVC.ViewComponent",
-        "Name": "__Generated__MenuViewComponentTagHelper",
-        "AssemblyName": "ServiceHost",
-        "CaseSensitive": false,
-        "TagMatchingRules": [
-          {
-            "TagName": "vc:menu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "ITagHelper",
-          "Common.TypeName": "__Generated__MenuViewComponentTagHelper",
-          "MVC.ViewComponent.Name": "Menu"
         }
       },
       {
@@ -16435,6 +16435,11 @@
     {
       "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Areas\\Administration\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Areas\\Administration\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\Pages\\Search.cshtml",
+      "TargetPath": "Pages\\Search.cshtml",
       "FileKind": "mvc"
     },
     {

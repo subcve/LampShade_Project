@@ -57,5 +57,53 @@ namespace _01_Query.Query
             return products;
             
         }
+
+        public List<ProductQueryModel> Search(string value)
+        {
+            var inventory = _inventoryContext.Inventory.Select(c => new { c.ProductId, c.UnitPrice }).ToList();
+            var discount = _discountContext.CustomerDiscounts
+            .Where(c => c.StartDate < DateTime.Now && c.EndDate > DateTime.Now)
+            .Select(c => new { c.DiscountRate, c.ProductId }).ToList();
+            
+            var query = _context.Products
+            .Include(c=>c.Category)
+            .Select(product=>new ProductQueryModel
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Category = product.Category.Name,
+                Picture = product.Picture,
+                PictureAlt = product.PictureAlt,
+                PictureTitle = product.PictureTitle,
+                Slug = product.Slug,
+                ShortDescription = product.ShortDescription,
+                CategorySlug = product.Category.Slug
+            }).AsNoTracking();
+
+            if(!string.IsNullOrWhiteSpace(value))
+                query = query.Where(c=>c.Name.Contains(value) || c.ShortDescription.Contains(value));
+
+            var products = query.OrderByDescending(c=>c.Id).ToList();
+
+            foreach (var product in products)
+            {
+                var productInventory = inventory.FirstOrDefault(c => c.ProductId == product.Id);
+                if (productInventory != null)
+                {
+                    var price = productInventory.UnitPrice;
+                    product.Price = price.ToMoney();
+                    var productDiscount = discount.FirstOrDefault(c => c.ProductId == product.Id);
+                    if (productDiscount != null)
+                    {
+                        var discountRate = productDiscount.DiscountRate;
+                        product.DiscountRate = discountRate;
+                        product.HasDiscount = discountRate > 0;
+                        var discountAmount = Math.Round((price * discountRate) / 100);
+                        product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                    }
+                }
+            }
+            return products;
+        }
     }
 }

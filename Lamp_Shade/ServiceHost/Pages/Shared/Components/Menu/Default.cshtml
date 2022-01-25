@@ -222,8 +222,8 @@
 
         <div class="offcanvas-inner-content">
             <div class="offcanvas-mobile-search-area">
-                <form action="#">
-                    <input type="search" placeholder="جستجو ...">
+                <form method="get" asp-page="/Search">
+                    <input type="search" name="value" id="value" placeholder="جستجو ...">
                     <button type="submit">
                         <i class="fa fa-search"></i>
                     </button>

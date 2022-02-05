@@ -4,6 +4,8 @@ using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
 using System.Globalization;
 
+#nullable disable
+
 namespace ShopManagement.Infrastructure.EFCore.Repository
 {
     public class ProductCategoryRepository : RepositoryBase<long, ProductCategory>, IProductCategoryRepository
@@ -24,7 +26,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Name = x.Name,
                 Keywords = x.Keywords,
                 MetaDescription = x.MetaDescription,
-                Picture = x.Picture,
+                //Picture = x.Picture,
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 Slug = x.Slug
@@ -55,5 +57,10 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Name = c.Name
             }).ToList();
         }
-    }
+
+		public string GetSlugBy(long id)
+		{
+            return _context.ProductCategories.Select(c => new { c.Id, c.Slug }).FirstOrDefault(c=>c.Id == id).Slug;
+		}
+	}
 }

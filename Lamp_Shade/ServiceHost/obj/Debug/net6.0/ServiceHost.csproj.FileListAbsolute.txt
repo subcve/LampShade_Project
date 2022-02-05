@@ -164,3 +164,4 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\I
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Application.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\InventoryManagement.Application.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\obj\Debug\net6.0\ServiceHost.MvcApplicationPartsAssemblyInfo.cs

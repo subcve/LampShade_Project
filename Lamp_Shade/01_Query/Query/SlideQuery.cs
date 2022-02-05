@@ -18,7 +18,7 @@ namespace _01_Query.Query
                 .Where(c => c.IsRemoved == false)
                 .Select(x => new SlideQueryModel
                 {
-                    Picture = x.Picture,
+                    //Picture = x.Picture,
                     PictureAlt = x.PictureAlt,
                     PictureTitle = x.PictureTitle,
                     BtnText = x.BtnText,

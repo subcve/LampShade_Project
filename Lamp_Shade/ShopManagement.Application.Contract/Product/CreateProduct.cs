@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using _0_Framework.Application;
+using _01_Framework.Application;
+using Microsoft.AspNetCore.Http;
 using ShopManagement.Application.Contracts.ProductCategory;
 
 namespace ShopManagement.Application.Contracts.Product
@@ -19,9 +21,10 @@ namespace ShopManagement.Application.Contracts.Product
         public string ShortDescription { get; set; }
         [MaxLength(500, ErrorMessage = ValidationMessages.MaxLength)]
         public string Description { get; set; }
-
-        [MaxLength(1000, ErrorMessage = ValidationMessages.MaxLength)]
-        public string Picture { get; set; }
+        [Required(ErrorMessage = ValidationMessages.IsRequired)]
+        [MaxFileSize(3 * 1024 * 1024, ErrorMessage = ValidationMessages.MaxFileSize)]
+        //[MaxLength(1000, ErrorMessage = ValidationMessages.MaxLength)]
+        public IFormFile Picture { get; set; }
 
 
         [MaxLength(255,ErrorMessage = ValidationMessages.MaxLength)]

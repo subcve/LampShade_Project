@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Domain.ProductAgg;
 
+#nullable disable
+
 namespace ShopManagement.Infrastructure.EFCore.Repository
 {
     public class ProductRepository : RepositoryBase<long, Product>, IProductRepository
@@ -28,7 +30,6 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Slug = c.Slug,
                 CategoryId = c.CategoryId,
                 Description = c.Description,
-                Picture = c.Picture,
                 PictureAlt = c.PictureAlt,
                 PictureTitle = c.PictureTitle,
                 Keywords = c.Keywords,
@@ -70,5 +71,10 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Name = c.Name
             }).ToList();
         }
-    }
+
+		public Product GetProductWithCategory(long id)
+		{
+            return _context.Products.Include(c => c.Category).FirstOrDefault(c => c.Id == id);
+		}
+	}
 }

@@ -7,10 +7,12 @@ namespace ShopManagement.Application
     public class ProductCategoryApplication : IProductCategoryApplication
     {
         private readonly IProductCategoryRepository _productCategoryRepository;
+        private readonly IFileUpload _fileUpload;
 
-        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository)
+        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository, IFileUpload fileUpload)
         {
             _productCategoryRepository = productCategoryRepository;
+            _fileUpload = fileUpload;
         }
 
         public OperationResult Create(CreateProductCategory command)
@@ -20,9 +22,11 @@ namespace ShopManagement.Application
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var slug = command.Slug.Slugify();
+            var picturePath = $"{slug}";
+            var pictureName = _fileUpload.Upload(command.Picture, picturePath);
             var productCategory = new ProductCategory(command.Name, command.Description,
-                command.Picture, command.PictureAlt, command.PictureTitle, command.Keywords,
-                command.MetaDescription, slug);
+                pictureName, command.PictureAlt, command.PictureTitle,
+                command.Keywords,command.MetaDescription, slug);
 
             _productCategoryRepository.Create(productCategory);
             _productCategoryRepository.SaveChanges();
@@ -41,7 +45,9 @@ namespace ShopManagement.Application
                 return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
             var slug = command.Slug.Slugify();
-            productCategory.Edit(command.Name, command.Description, command.Picture, 
+            var picturePath = $"{slug}";
+            var pictureName = _fileUpload.Upload(command.Picture,picturePath);
+            productCategory.Edit(command.Name, command.Description, pictureName, 
                 command.PictureAlt, command.PictureTitle, command.Keywords, 
                 command.MetaDescription, slug);
 

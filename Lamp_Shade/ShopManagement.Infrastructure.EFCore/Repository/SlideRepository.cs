@@ -1,8 +1,11 @@
 ﻿using _0_Framework.Application;
 using _0_Framework.Infrastructure;
+using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Slide;
 using ShopManagement.Domain.SlideAgg;
 using System.Globalization;
+
+#nullable disable
 
 namespace ShopManagement.Infrastructure.EFCore.Repository
 {
@@ -21,7 +24,6 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             {
                 Id = c.Id,
                 BtnText = c.BtnText,
-                Picture = c.Picture,
                 PictureAlt = c.PictureAlt,
                 PictureTitle = c.PictureTitle,
                 Heading = c.Heading,
@@ -40,7 +42,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Title = c.Title,
                 IsRemoved = c.IsRemoved,
                 CreationDate = c.CreationDate.ToFarsi()
-            }).ToList();
+            }).AsNoTracking().ToList();
         }
     }
 }

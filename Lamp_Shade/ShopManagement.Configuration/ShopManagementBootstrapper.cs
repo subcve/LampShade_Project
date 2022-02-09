@@ -15,6 +15,8 @@ using _01_Query.Contracts.Slide;
 using _01_Query.Query;
 using _01_Query.Contracts.ProductCategory;
 using _01_Query.Contracts.Product;
+using ShopManagement.Application.Contracts.Comment;
+using ShopManagement.Domain.CommentAgg;
 
 namespace ShopManagement.Configuration
 {
@@ -36,6 +38,9 @@ namespace ShopManagement.Configuration
             services.AddTransient<ISlideRepository, SlideRepository>();
             services.AddTransient<ISlideApplication, SlideApplication>();
             services.AddTransient<ISlideQuery, SlideQuery>();
+
+            services.AddTransient<ICommentApplication, CommentApplication>();
+            services.AddTransient<ICommentRepository, CommentRepository>();
 
             services.AddDbContext<ShopContext>(c 
                 => c.UseSqlServer(connectionString));

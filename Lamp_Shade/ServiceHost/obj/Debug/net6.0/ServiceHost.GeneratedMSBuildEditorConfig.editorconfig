@@ -79,6 +79,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/Comments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxDb21tZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/ProductCategories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0Q2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -145,6 +149,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/ProductCategory.cshtml]

@@ -1,19 +1,19 @@
 ﻿@page
-@model 	ServiceHost.Areas.Administration.Pages.Blog.ArticleCategories.IndexModel
+@model 	ServiceHost.Areas.Administration.Pages.Blog.Articles.IndexModel
 @{
 }
 
 
 @{
     Layout = "Shared/_AdminLayout";
-    ViewData["title"] = "مدیریت گروه مقالات";
+    ViewData["title"] = "مدیریت مقالات";
 }
 
 <div class="row">
     <div class="col-sm-12">
         <h4 class="page-title pull-right">@ViewData["title"]</h4>
         <p class="pull-left">
-            <a class="btn btn-success btn-lg" href="#showmodal=@Url.Page("./Index", "Create")">ایجاد گروه مقاله جدید</a>
+            <a class="btn btn-success btn-lg" asp-page="./Create">ایجاد مقاله جدید</a>
         </p>
     </div>
 </div>
@@ -22,13 +22,19 @@
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">جستجو در گروه مقالات</h3>
+                <h3 class="panel-title">جستجو در مقالات</h3>
             </div>
             <div class="panel-body">
                 <form class="form-inline" role="form" method="get">
                     <div class="form-group">
-                        <label class="sr-only" asp-for="SearchModel.Name"></label>
-                        <input class="form-control" asp-for="SearchModel.Name" placeholder="نام گروه مقاله">
+                        <label class="sr-only" asp-for="SearchModel.Title"></label>
+                        <input class="form-control" asp-for="SearchModel.Title" placeholder="نام عنوان مقاله">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" asp-for="SearchModel.CategoryId"></label>
+                        <select class="form-control" asp-for="SearchModel.CategoryId" asp-items="Model.ArticleCategories">
+                            <option value="0">گروه مقاله ...</option>
+                        </select>
                     </div>
                     <button type="submit" class="btn btn-success waves-effect waves-light m-l-10">جستجو</button>
                     <a class="btn btn-primary waves-effect waves-light m-l-10" asp-page="./Index">مشاهده همه</a>
@@ -42,7 +48,7 @@
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">لیست گروه مقالات</h3>
+                <h3 class="panel-title">لیست مقالات</h3>
             </div>
             <div class="panel-body">
                 <div class="row">
@@ -52,30 +58,30 @@
                                 <tr>
                                     <th>#</th>
                                     <th>عکس</th>
-                                    <th>نام</th>
-                                    <th>ترتیب نمایش</th>
-                                    <th>توضیحات</th>
-                                    <th>تعداد مقاله</th>
+                                    <th>عنوان</th>
+                                    <th>گروه مقاله</th>
+                                    <th>توضیحات کوتاه</th>
                                     <th>تاریخ تولید</th>
+                                    <th>تاریخ انتشار</th>
                                     <th>عملیات</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach (var item in Model.ArticleCategories)
+                                @foreach (var item in Model.Articles)
                                 {
                                     <tr>
                                         <td>@item.Id</td>
                                         <td>
                                             <img src="@item.Picture" style="width: 70px; height: 70px" />
                                         </td>
-                                        <td>@item.Name</td>
-                                        <td>@item.ShowOrder</td>
-                                        <td>@item.Description</td>
-                                        <td>@item.ArticleCount</td>
+                                        <td>@item.Title</td>
+                                        <td>@item.Category</td>
+                                        <td>@item.ShortDescription</td>
                                         <td>@item.CreationDate</td>
+                                        <td>@item.PublishDate</td>
                                         <td>
                                             <a class="btn btn-warning pull-right m-rl-5" 
-                                               href="#showmodal=@Url.Page("./Index", "Edit", new { id = item.Id})">
+                                               asp-page="./Edit" asp-route-id="@item.Id">
                                                 <i class="fa fa-edit"></i> ویرایش
                                             </a>
                                         </td>

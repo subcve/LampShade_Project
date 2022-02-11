@@ -6,10 +6,10 @@ namespace BlogManagement.Application
 {
 	public class ArticleCategoryApplication : IArticleCategoryApplication
 	{
-		private readonly IArticleCategoryReposiroty _articleCategoryReposiroty;
+		private readonly IArticleCategoryRepository _articleCategoryReposiroty;
 		private readonly IFileUpload _fileUpload;
 
-		public ArticleCategoryApplication(IArticleCategoryReposiroty articleCategoryReposiroty, IFileUpload fileUpload)
+		public ArticleCategoryApplication(IArticleCategoryRepository articleCategoryReposiroty, IFileUpload fileUpload)
 		{
 			_articleCategoryReposiroty = articleCategoryReposiroty;
 			_fileUpload = fileUpload;
@@ -43,6 +43,11 @@ namespace BlogManagement.Application
 				command.Description, slug, command.ShowOrder, command.CanonicalAddress, command.PictureAlt, command.PictureTitle);
 			_articleCategoryReposiroty.SaveChanges();
 			return operation.Succeed();
+		}
+
+		public List<ArticleCategoryViewModel> GetArticleCategories()
+		{
+			return _articleCategoryReposiroty.GetArticleCategories();
 		}
 
 		public EditArticleCategory GetDetails(long id)

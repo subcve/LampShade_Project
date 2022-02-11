@@ -8,18 +8,22 @@ namespace BlogManagement.Infrastructure.EFCore.Mapping
 	{
 		public void Configure(EntityTypeBuilder<ArticleCategory> builder)
 		{
-            builder.ToTable("ArticleCategories");
-            builder.HasKey(c=>c.Id);
+			builder.ToTable("ArticleCategories");
+			builder.HasKey(c => c.Id);
 
-            builder.Property(x => x.Name).HasMaxLength(500).IsRequired();
-            builder.Property(x => x.Description).HasMaxLength(2000).IsRequired();
-            builder.Property(x => x.Picture).HasMaxLength(500).IsRequired();
-            builder.Property(x => x.PictureAlt).HasMaxLength(500);
-            builder.Property(x => x.PictureTitle).HasMaxLength(500);
-            builder.Property(x => x.Slug).HasMaxLength(500).IsRequired();
-            builder.Property(x => x.KeyWords).HasMaxLength(100).IsRequired();
-            builder.Property(x => x.MetaDescription).HasMaxLength(150).IsRequired();
-            builder.Property(x => x.CanonicalAddress).HasMaxLength(1000);
-        }
+			builder.Property(x => x.Name).HasMaxLength(500).IsRequired();
+			builder.Property(x => x.Description).HasMaxLength(2000).IsRequired();
+			builder.Property(x => x.Picture).HasMaxLength(500).IsRequired();
+			builder.Property(x => x.PictureAlt).HasMaxLength(500);
+			builder.Property(x => x.PictureTitle).HasMaxLength(500);
+			builder.Property(x => x.Slug).HasMaxLength(500).IsRequired();
+			builder.Property(x => x.KeyWords).HasMaxLength(100).IsRequired();
+			builder.Property(x => x.MetaDescription).HasMaxLength(150).IsRequired();
+			builder.Property(x => x.CanonicalAddress).HasMaxLength(1000);
+
+			builder.HasMany(c => c.Articles)
+				.WithOne(x => x.Category)
+				.HasForeignKey(z => z.CategoryId);
+		}
 	}
 }

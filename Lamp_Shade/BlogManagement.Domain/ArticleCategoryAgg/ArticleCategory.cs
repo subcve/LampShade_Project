@@ -1,4 +1,5 @@
 ﻿using _0_Framework.Domain;
+using BlogManagement.Domain.ArticleAgg;
 
 namespace BlogManagement.Domain.ArticleCategoryAgg
 {
@@ -14,6 +15,7 @@ namespace BlogManagement.Domain.ArticleCategoryAgg
 		public string Slug { get; private set; }
 		public int ShowOrder { get; private set; }
 		public string CanonicalAddress { get; private set; }
+		public List<Article> Articles { get; private set; }
 
 		public ArticleCategory(string name, string picture, string keyWords, string metaDescription,
 			string description, string slug, int showOrder, string canonicalAddress, string pictureAlt, string pictureTitle)
@@ -28,6 +30,7 @@ namespace BlogManagement.Domain.ArticleCategoryAgg
 			CanonicalAddress = canonicalAddress;
 			PictureAlt = pictureAlt;
 			PictureTitle = pictureTitle;
+			Articles = new List<Article>();
 		}
 		public void Edit(string name, string picture, string keyWords, string metaDescription,
 			string description, string slug, int showOrder, string canonicalAddress,string pictureAlt, string pictureTitle)

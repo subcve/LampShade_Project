@@ -1,7 +1,9 @@
 ﻿@page "{id}"
 @model ServiceHost.Pages.ArticleModel
 @{
-    ViewData["Title"] = "صفحه مقاله";
+    ViewData["Title"] = @Model.Article.Title;
+    ViewData["keywords"] = @Model.Article.KeyWords;
+    ViewData["metaDescription"] = @Model.Article.MetaDescription;
 }
 
 
@@ -38,7 +40,7 @@
                             <div class="col-lg-9 order-1 order-lg-1">
                                 <div class="blog-page-content">
                                     <div class="blog-single-post-container">
-                                        <h3 class="post-title">@Model.Article.Title</h3>
+                                        <h2 class="post-title">@Model.Article.Title</h2>
                                         <div class="post-meta">
                                             <p>
                                                 <span>

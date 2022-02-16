@@ -237,12 +237,21 @@
     <script>
         $('.observer-example').persianDatepicker({
             format: 'YYYY/MM/DD',
-            autoClose: true
+            autoClose: true,
+            initialValueType: "Persian"
         });
     </script>
-    <script>
-        let notifier = new AWN(globalOptions);
-    </script>
+     <script src="https://cdn.tiny.cloud/1/xo46knl3ixwb0y35ioqsmt4oxcip6upjlqt35wbyjdzczt3b/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+     <script>
+    tinymce.init({
+      selector: '.BodyContent',
+      plugins: 'a11ychecker advcode casechange export formatpainter linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tinycomments tinymcespellchecker',
+      toolbar: 'a11ycheck addcomment showcomments casechange checklist code export formatpainter pageembed permanentpen table',
+      toolbar_mode: 'floating',
+      tinycomments_mode: 'embedded',
+      tinycomments_author: 'Author name',
+    });
+  </script>
 </body>
 
 </html>

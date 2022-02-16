@@ -34,6 +34,6 @@ namespace BlogManagement.Application.Contracts.ArticleCategory
 		[Required(ErrorMessage = ValidationMessages.IsRequired)]
 		public int ShowOrder { get; set; }
 		[MaxLength(1000, ErrorMessage = ValidationMessages.MaxLength)]
-		public string CanonicalAddress { get; set; }
+		public string? CanonicalAddress { get; set; }
 	}
 }

@@ -1,5 +1,5 @@
-@{
-}
+@using _01_Query
+@model MenuModel
 
 <div class="header-area header-sticky">
     <div class="container">
@@ -19,26 +19,26 @@
                                 </li>
 
                                 <li class="menu-item-has-children">
-                                    <a href="blog-left-sidebar.html">محصولات</a>
+                                    <a>محصولات</a>
                                     <ul class="sub-menu">
-                                        <li>
-                                            <a href="blog-left-sidebar.html">دکوری</a>
+                                        @foreach (var item in Model.ProductCategories)
+                                        {
+                                            <li>
+                                            <a asp-page="/ProductCategory" asp-route-id="@item.Slug">@item.Name</a>
                                         </li>
-                                        <li>
-                                            <a href="blog-right-sidebar.html">نگه دارنده</a>
-                                        </li>
+                                        }
                                     </ul>
                                 </li>
 
                                 <li class="menu-item-has-children">
-                                    <a href="blog-left-sidebar.html">مقالات</a>
+                                    <a>مقالات</a>
                                     <ul class="sub-menu">
-                                        <li>
-                                            <a href="blog-left-sidebar.html">گروه 1</a>
+                                        @foreach (var item in Model.ArticleCategories)
+                                        {
+                                            <li>
+                                            <a asp-page="/ArticleCategory" asp-route-id="@item.Slug">@item.Name</a>
                                         </li>
-                                        <li>
-                                            <a href="blog-right-sidebar.html">گروه 2</a>
-                                        </li>
+                                        }
                                     </ul>
                                 </li>
 

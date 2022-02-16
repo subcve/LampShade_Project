@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\01_Framework\0_Framework.csproj" />
+    <ProjectReference Include="..\01_Query\01_LampShadeQuery.csproj" />
     <ProjectReference Include="..\BlogManagement.Application.Contracts\BlogManagement.Application.Contracts.csproj" />
     <ProjectReference Include="..\BlogManagement.Application\BlogManagement.Application.csproj" />
     <ProjectReference Include="..\BlogManagement.Domain\BlogManagement.Domain.csproj" />

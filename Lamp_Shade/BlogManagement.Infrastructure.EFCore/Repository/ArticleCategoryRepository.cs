@@ -30,7 +30,7 @@ namespace BlogManagement.Infrastructure.EFCore.Repository
 				Name = x.Name,
 				CanonicalAddress = x.CanonicalAddress,
 				KeyWords = x.KeyWords,
-				Description = x.Description,
+				Description = x.Description.Substring(0,Math.Min(x.Description.Length,50)) + "...",
 				MetaDescription = x.MetaDescription,
 				ShowOrder = x.ShowOrder,
 				Slug = x.Slug,

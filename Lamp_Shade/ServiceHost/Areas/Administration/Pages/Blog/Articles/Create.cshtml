@@ -1,6 +1,8 @@
 ﻿@page
 @model ServiceHost.Areas.Administration.Pages.Blog.Articles.CreateModel
 @{
+	Layout = "Shared/_AdminLayout";
+	ViewData["Title"] = "ایجاد مقاله جدید";
 }
 
 <div class="row">
@@ -12,17 +14,25 @@
 			<div class="panel-body">
 				<form method="post" enctype="multipart/form-data">
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-4">
 							<div class="form-group">
 								<label asp-for="Command.Title" class="control-label">نام</label>
 								<input type="text" class="form-control" asp-for="Command.Title" onchange="makeSlug('Title', 'Slug')">
 								<span asp-validation-for="Command.Title" class="error"></span>
 							</div>
-						</div><div class="col-md-6">
+						</div>
+						<div class="col-md-4">
 							<div class="form-group">
 								<label asp-for="Command.Slug" class="control-label">اسلاگ</label>
 								<input type="text" class="form-control" asp-for="Command.Slug">
 								<span asp-validation-for="Command.Slug" class="error"></span>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="form-group">
+								<label asp-for="Command.PublishDate" class="control-label ">تاریخ انتشار</label>
+								<input type="text" class="form-control observer-example" asp-for="Command.PublishDate">
+								<span asp-validation-for="Command.PublishDate" class="error"></span>
 							</div>
 						</div>
 					</div>
@@ -89,7 +99,7 @@
 						<div class="col-md-6">
 							<div class="form-group no-margin">
 								<label asp-for="Command.ShortDescription" class="control-label">توضیحات کوتاه</label>
-								<textarea class="form-control autogrow" asp-for="Command.ShortDescription"
+								<textarea class="form-control" asp-for="Command.ShortDescription"
 										  style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;"></textarea>
 								<span asp-validation-for="Command.ShortDescription" class="error"></span>
 							</div>
@@ -99,7 +109,7 @@
 						<div class="col-md-12">
 							<div class="form-group no-margin">
 								<label asp-for="Command.Description" class="control-label">توضیحات</label>
-								<textarea class="form-control autogrow" asp-for="Command.Description"
+								<textarea class="form-control BodyContent" asp-for="Command.Description"
 										  style="overflow: hidden; word-wrap: break-word; resize: horizontal; height: 104px;"></textarea>
 								<span asp-validation-for="Command.Description" class="error"></span>
 							</div>

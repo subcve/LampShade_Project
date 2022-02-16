@@ -29,9 +29,8 @@ namespace BlogManagement.Application
 			var pictureName = _fileUpload.Upload(command.Picture, path);
 			var publishDate = command.PublishDate.ToGeorgianDateTime();
 
-			var article = new Article(command.Title, command.ShortDescription, command.Description, pictureName,
-				command.PictureAlt, command.PictureTitle, publishDate, slug, command.KeyWords, command.MetaDescription,
-				command.CanonicalAddress, command.CategoryId);
+			var article = new Article(command.Title, command.Description, command.ShortDescription,pictureName,command.PictureAlt,command.PictureTitle,
+				publishDate,command.KeyWords,command.MetaDescription,slug,command.CanonicalAddress,command.CategoryId);
 
 			_articleRepository.Create(article);
 			_articleRepository.SaveChanges();
@@ -54,9 +53,8 @@ namespace BlogManagement.Application
 			var pictureName = _fileUpload.Upload(command.Picture, path);
 			var publishDate = command.PublishDate.ToGeorgianDateTime();
 
-			article.Edit(command.Title, command.ShortDescription, command.Description, pictureName,
-				command.PictureAlt, command.PictureTitle, publishDate, slug, command.KeyWords, command.MetaDescription,
-				command.CanonicalAddress, command.CategoryId);
+			article.Edit(command.Title, command.Description, command.ShortDescription, pictureName, command.PictureAlt, command.PictureTitle,
+				publishDate, command.KeyWords, command.MetaDescription, slug, command.CanonicalAddress, command.CategoryId);
 
 			_articleRepository.SaveChanges();
 			return operation.Succeed();

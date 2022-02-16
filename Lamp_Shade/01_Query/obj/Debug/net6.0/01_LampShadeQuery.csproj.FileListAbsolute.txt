@@ -31,3 +31,9 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\Disc
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\DiscountManagement.Domain.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\DiscountManagement.Application.Contracts.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\BlogManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\BlogManagement.Domain.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\BlogManagement.Infrastructure.EFCore.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\BlogManagement.Infrastructure.EFCore.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\BlogManagement.Application.Contracts.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\BlogManagement.Domain.pdb

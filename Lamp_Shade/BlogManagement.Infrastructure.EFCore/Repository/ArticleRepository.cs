@@ -46,7 +46,7 @@ namespace BlogManagement.Infrastructure.EFCore.Repository
 			{
 				Id = x.Id,
 				Title = x.Title,
-				ShortDescription = x.ShortDescription,
+				ShortDescription = x.ShortDescription.Substring(0, Math.Min(x.Description.Length, 50)) + "...",
 				CategoryId = x.CategoryId,
 				Category = x.Category.Name,
 				Picture = x.Picture,

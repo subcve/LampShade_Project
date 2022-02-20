@@ -33,10 +33,6 @@ namespace ShopManagement.Infrastructure.EFCore.Mapping
             builder.HasMany(c => c.ProductPictures)
                 .WithOne(c => c.Product)
                 .HasForeignKey(c => c.ProductId);
-
-            builder.HasMany(c => c.Comments)
-                .WithOne(c => c.Product)
-                .HasForeignKey(c => c.ProductId);
         }
     }
 }

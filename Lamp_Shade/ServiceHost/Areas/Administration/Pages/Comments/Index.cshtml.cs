@@ -1,12 +1,11 @@
+using CommentManagement.Application.Contracts.Comment;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using ShopManagement.Application.Contracts.Comment;
 
-namespace ServiceHost.Areas.Administration.Pages.Shop.Comments
+namespace ServiceHost.Areas.Administration.Pages.Comments
 {
     public class IndexModel : PageModel
     {
-		[TempData]
 		public string Message { get; set; }
 		public List<CommentViewModel> Comments;
 		public CommentSearchModel SearchModel;

@@ -1,4 +1,6 @@
-﻿namespace _01_Query.Contracts.Article
+﻿using _01_Query.Contracts.Comments;
+
+namespace _01_Query.Contracts.Article
 {
 	public class ArticleQueryViewModel
 	{
@@ -18,5 +20,6 @@
 		public long CategoryId { get; set; }
 		public string CategoryName { get; set; }
 		public string CategorySlug { get; set; }
+		public List<CommentQueryModel> Comments { get; set; }
 	}
 }

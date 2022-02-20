@@ -175,3 +175,13 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\B
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\BlogManagement.Application.Contracts.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\BlogManagement.Domain.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\BlogManagement.Infrastructure.EFCore.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\CommentManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\CommentManagement.Application.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\CommentManagement.Domain.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\CommentManagement.Infrastructure.Configuration.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\CommentManagement.Infrastructure.EFCore.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\CommentManagement.Application.Contracts.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\CommentManagement.Infrastructure.Configuration.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\CommentManagement.Application.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\CommentManagement.Domain.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\CommentManagement.Infrastructure.EFCore.pdb

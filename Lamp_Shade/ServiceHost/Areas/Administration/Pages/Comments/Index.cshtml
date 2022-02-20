@@ -1,7 +1,5 @@
 ﻿@page
-@model ServiceHost.Areas.Administration.Pages.Shop.Comments.IndexModel
-
-
+@model ServiceHost.Areas.Administration.Pages.Comments.IndexModel
 @{
     Layout = "Shared/_AdminLayout";
     ViewData["title"] = "مدیریت :کامنت ها";
@@ -53,7 +51,6 @@
                                     <th>#</th>
                                     <th>نام</th>
                                     <th>ایمیل</th>
-                                    <th>محصول</th>
                                     <th>متن</th>
                                     <th>وضعیت</th>
                                     <th>تاریخ تولید</th>
@@ -67,7 +64,6 @@
                                         <td>@item.Id</td>
                                         <td>@item.Name</td>
                                         <td>@item.Email</td>
-                                        <td>@item.ProductName</td>
                                         <td>@item.Message</td>
                                         <td class="text-center">
                                             @if (item.IsCanceled)

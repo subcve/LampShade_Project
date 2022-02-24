@@ -1,10 +1,11 @@
 ﻿using _0_Framework.Application;
+using _01_Framework.Application;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
 
 namespace ShopManagement.Application
 {
-    public class ProductCategoryApplication : IProductCategoryApplication
+	public class ProductCategoryApplication : IProductCategoryApplication
     {
         private readonly IProductCategoryRepository _productCategoryRepository;
         private readonly IFileUpload _fileUpload;

@@ -14,6 +14,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="Areas\Administration\Pages\Accounts\Index.cshtml" />
+    <Content Remove="Areas\Administration\Pages\Accounts\Role\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Areas\Administration\Pages\Accounts\Account\Index.cshtml" />
+    <None Include="Areas\Administration\Pages\Accounts\Role\Index.cshtml" />
     <None Include="Areas\Administration\Pages\Index.cshtml" />
     <None Include="Areas\Administration\Pages\Shared\_AdminLayout.cshtml" />
     <None Include="Areas\Administration\Pages\Shared\_Menu.cshtml" />
@@ -258,6 +265,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AccountManagement.Infrastructure.Configuration\AccountManagement.Infrastructure.Configuration.csproj" />
     <ProjectReference Include="..\BlogManagement.Infrastructure.Configuration\BlogManagement.Infrastructure.Configuration.csproj" />
     <ProjectReference Include="..\CommentManagement.Application.Contracts\CommentManagement.Application.Contracts.csproj" />
     <ProjectReference Include="..\CommentManagement.Infrastructure.Configuration\CommentManagement.Infrastructure.Configuration.csproj" />
@@ -285,6 +293,19 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\UploadedFiles\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Areas\Administration\Pages\Accounts\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Areas\Administration\Pages\Accounts\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Areas\Administration\Pages\Accounts\Role\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Areas\Administration\Pages\Accounts\Role\Index.cshtml" />
   </ItemGroup>
 
 </Project>

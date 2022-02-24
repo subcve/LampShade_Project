@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Http;
 
-namespace _0_Framework.Application
+namespace _01_Framework.Application
 {
-    public interface IFileUpload
-    {
-        string Upload(IFormFile file,string path);
-    }
+	public interface IFileUpload
+	{
+		string Upload(IFormFile file, string path);
+	}
 }

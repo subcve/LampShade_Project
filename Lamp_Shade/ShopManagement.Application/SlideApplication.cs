@@ -1,10 +1,11 @@
 ﻿using _0_Framework.Application;
+using _01_Framework.Application;
 using ShopManagement.Application.Contracts.Slide;
 using ShopManagement.Domain.SlideAgg;
 
 namespace ShopManagement.Application
 {
-    public class SlideApplication : ISlideApplication
+	public class SlideApplication : ISlideApplication
     {
         private readonly ISlideRepository _slideRepository;
         private readonly IFileUpload _fileUpload;

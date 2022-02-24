@@ -9,6 +9,7 @@
       "ServiceHost/1.0.0": {
         "dependencies": {
           "0_Framework": "1.0.0",
+          "AccountManagement.Infrastructure.Configuration": "1.0.0",
           "BlogManagement.Infrastructure.Configuration": "1.0.0",
           "CommentManagement.Application.Contracts": "1.0.0",
           "CommentManagement.Infrastructure.Configuration": "1.0.0",
@@ -500,6 +501,52 @@
         },
         "runtime": {
           "0_Framework.dll": {}
+        }
+      },
+      "AccountManagement.Application/1.0.0": {
+        "dependencies": {
+          "AccountManagement.Application.Contracts": "1.0.0",
+          "AccountManagement.Domian": "1.0.0"
+        },
+        "runtime": {
+          "AccountManagement.Application.dll": {}
+        }
+      },
+      "AccountManagement.Application.Contracts/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "runtime": {
+          "AccountManagement.Application.Contracts.dll": {}
+        }
+      },
+      "AccountManagement.Domian/1.0.0": {
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "AccountManagement.Application.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "AccountManagement.Domian.dll": {}
+        }
+      },
+      "AccountManagement.Infrastructure.Configuration/1.0.0": {
+        "dependencies": {
+          "AccountManagement.Application": "1.0.0",
+          "AccountManagement.Application.Contracts": "1.0.0",
+          "AccountManagement.Infrastructure.EFCore": "1.0.0"
+        },
+        "runtime": {
+          "AccountManagement.Infrastructure.Configuration.dll": {}
+        }
+      },
+      "AccountManagement.Infrastructure.EFCore/1.0.0": {
+        "dependencies": {
+          "AccountManagement.Domian": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
+        },
+        "runtime": {
+          "AccountManagement.Infrastructure.EFCore.dll": {}
         }
       },
       "BlogManagement.Application/1.0.0": {
@@ -1132,6 +1179,31 @@
       "sha512": ""
     },
     "0_Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Domian/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Infrastructure.Configuration/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AccountManagement.Infrastructure.EFCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,11 +1,12 @@
 ﻿using _0_Framework.Application;
+using _01_Framework.Application;
 using ShopManagement.Application.Contracts.ProductPicture;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 
 namespace ShopManagement.Application
 {
-    public class ProductPictureApplication : IProductPictureApplication
+	public class ProductPictureApplication : IProductPictureApplication
     {
         private readonly IProductPictureRepository _productPictureRepository;
         private readonly IProductRepository _productRepository;

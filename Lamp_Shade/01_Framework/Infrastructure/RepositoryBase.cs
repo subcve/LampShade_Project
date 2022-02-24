@@ -1,13 +1,10 @@
 ﻿using _0_Framework.Domain;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
 
 namespace _0_Framework.Infrastructure
 {
-    public class RepositoryBase<TKey, T> : IRepository<TKey, T> where T : class
+	public class RepositoryBase<TKey, T> : IRepository<TKey, T> where T : class
     {
         private readonly DbContext _context;
 

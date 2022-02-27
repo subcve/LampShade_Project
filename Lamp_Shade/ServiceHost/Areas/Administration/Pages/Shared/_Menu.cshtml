@@ -1,4 +1,9 @@
-﻿<div class="left side-menu">
+﻿@using _01_Framework.Application
+@inject IAuthHelper authHelper;
+@{
+    var accountInfo = authHelper.GetCurrentAccountInfo();
+}
+<div class="left side-menu">
     <div class="sidebar-inner slimscrollleft">
         <div class="user-details">
             <div class="pull-right">
@@ -6,7 +11,7 @@
             </div>
             <div class="user-info">
                 <div class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">پیمان عابدی<span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">@accountInfo.Fullname<span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="javascript:void(0)"><i class="md md-face-unlock"></i> Profile<div class="ripple-wrapper"></div></a></li>
                         <li><a href="javascript:void(0)"><i class="md md-settings"></i> Settings</a></li>
@@ -15,7 +20,7 @@
                     </ul>
                 </div>
 
-                <p class="text-muted m-0">مدیر سیستم</p>
+                <p class="text-muted m-0">@accountInfo.Role</p>
             </div>
         </div>
         <!--- Divider -->
@@ -61,6 +66,9 @@
                         <li><a asp-page="/Accounts/Account/Index">کاربران</a></li>
                         <li><a asp-page="/Accounts/Role/Index">نقش ها</a></li>
                     </ul>
+                </li>
+                <li>
+                    <a asp-page="/Account" asp-page-handler="LogOut" class="waves-effect active"><i class="fa fa-sign-out"></i><span> خروج </span></a>
                 </li>
             </ul>
             <div class="clearfix"></div>

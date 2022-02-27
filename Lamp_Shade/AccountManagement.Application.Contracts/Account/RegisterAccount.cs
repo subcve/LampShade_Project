@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace AccountManagement.Application.Contracts.Account
 {
-	public class CreateAccount
+	public class RegisterAccount
 	{
 		[Required(ErrorMessage = ValidationMessages.IsRequired)]
 		[MaxLength(100,ErrorMessage = ValidationMessages.MaxLength)]
@@ -15,12 +15,11 @@ namespace AccountManagement.Application.Contracts.Account
 		[MaxLength(100, ErrorMessage = ValidationMessages.MaxLength)]
 		public string UserName { get; set; }
 		[Required(ErrorMessage = ValidationMessages.IsRequired)]
-		[MinLength(100, ErrorMessage = "تعداد کارکتر وارد شده باید حداقل 8  حرف باشد")]
+		[MinLength(8, ErrorMessage = "تعداد کارکتر وارد شده باید حداقل 8  حرف باشد")]
 		public string Password { get; set; }
 		[Required(ErrorMessage = ValidationMessages.IsRequired)]
 		[MaxLength(20, ErrorMessage = ValidationMessages.MaxLength)]
 		public string Mobile { get; set; }
-		[Range(1, int.MaxValue, ErrorMessage = ValidationMessages.IsRequired)]
 		public long RoleId { get; set; }
 		[MaxFileSize(3 * 1024 * 1024, ErrorMessage = ValidationMessages.MaxFileSize)]
 		public IFormFile ProfilePhoto { get; set; }

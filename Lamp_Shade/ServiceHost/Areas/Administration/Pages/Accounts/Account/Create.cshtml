@@ -1,5 +1,5 @@
 ﻿@using AccountManagement.Application.Contracts.Account
-@model CreateAccount
+@model RegisterAccount
 <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
     <h4 class="modal-title">ایجاد کاربر جدید</h4>
@@ -22,7 +22,7 @@
             </div>
             <div class="col-md-6">
                 <div class="form-group">
-                    <label asp-for="UserName" class="control-label">کد</label>
+                    <label asp-for="UserName" class="control-label">نام کاربری</label>
                     <input type="text" class="form-control" asp-for="UserName">
                     <span asp-validation-for="UserName" class="error"></span>
                 </div>

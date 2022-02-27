@@ -20,8 +20,12 @@ namespace AccountManagement.Domian.AccountAgg
 			UserName = userName;
 			Password = password;
 			Mobile = mobile;
-			RoleId = roleId;
-			ProfilePhoto = profilePhoto;
+			if (roleId == 0)
+				RoleId = 2; //User Role
+			else
+				RoleId = roleId;
+			if(!string.IsNullOrWhiteSpace(profilePhoto))
+				ProfilePhoto = profilePhoto;
 		}
 		public void Edit(string fullname, string userName, string mobile,
 			long roleId, string profilePhoto)

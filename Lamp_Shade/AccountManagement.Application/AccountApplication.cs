@@ -36,14 +36,16 @@ namespace AccountManagement.Application
 			return operation.Succeed();
 		}
 
-		public OperationResult Create(CreateAccount command)
+		public OperationResult Register(RegisterAccount command)
 		{
 			OperationResult operation = new();
 			if (_accountRepository.Exists(c => c.UserName == command.UserName || c.Mobile == command.Mobile))
 				return operation.Failed(ApplicationMessages.DuplicatedRecord);
 
 			var password = _passwordHasher.Hash(command.Password);
-			var picturepath = _fileUpload.Upload(command.ProfilePhoto, "ProfilePhotos");
+			var picturepath = "";
+			if(command.ProfilePhoto != null)
+				picturepath = _fileUpload.Upload(command.ProfilePhoto, "ProfilePhotos"); 
 			var account = new Account(command.Fullname,command.UserName,password,command.Mobile,command.RoleId,picturepath);
 			_accountRepository.Create(account);
 			_accountRepository.SaveChanges();

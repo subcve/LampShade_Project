@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Fki132TXks2CE7Hd5l8gG6/2uNbYf48i791ak1CxNxw=",
+  "Hash": "p8vbZm02xMdZcdUDeKx1vrHzgkippajjDjgzBgG94fE=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -8328,6 +8328,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\js\\vendors.js"
+    },
+    {
+      "Identity": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\UploadedFiles\\ProfilePhotos\\2022-02-24-19-58-12-de-de.png",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "UploadedFiles/ProfilePhotos/2022-02-24-19-58-12-de-de.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UploadedFiles\\ProfilePhotos\\2022-02-24-19-58-12-de-de.png"
     },
     {
       "Identity": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\wwwroot\\UploadedFiles\\Sildes\\2022-02-05-16-48-30-slider2.jpg",

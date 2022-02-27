@@ -31,12 +31,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Role/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZVxDcmVhdGUuY3NodG1s
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Account/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcQWNjb3VudFxSb2xlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Role/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZVxFZGl0LmNzaHRtbA==
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Account/Role/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcQWNjb3VudFxSb2xlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Account/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcQWNjb3VudFxSb2xlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Blog/ArticleCategories/Create.cshtml]
@@ -185,6 +189,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNzRGVuaWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Account.cshtml]

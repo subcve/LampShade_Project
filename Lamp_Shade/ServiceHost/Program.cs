@@ -1,4 +1,5 @@
 using _01_Framework.Application;
+using _01_Framework.Infrastructure;
 using AccountManagement.Infrastructure.Configuration;
 using BlogManagement.Infrastructure.Configuration;
 using CommentManagement.Infrastructure.Configuration;
@@ -40,13 +41,23 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         o.AccessDeniedPath = new PathString("/AccessDenied");
     });
 
-builder.Services.AddRazorPages();
+builder.Services.AddAuthorization(optioins => {
+    
+    optioins.AddPolicy("AdminArea", builder =>
+    builder.RequireRole(new List<string> { Roles.Administration, }));
+});
+
+builder.Services.AddRazorPages()
+    .AddRazorPagesOptions(options => {
+
+        options.Conventions.AuthorizeAreaFolder("Administration", "/", "AdminArea");
+    });
+
 var app = builder.Build();
-// Configure the HTTP request pipeline.
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 

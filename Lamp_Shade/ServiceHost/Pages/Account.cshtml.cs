@@ -5,11 +5,14 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 namespace ServiceHost.Pages
 {
     public class AccountModel : PageModel
-    {
-        [TempData]
-		public string Message { get; set; }
+	{
+		[TempData]
+		public string LoginMessage { get; set; }
 
-        private readonly IAccountApplication _accountApplication;
+		[TempData]
+		public string RegisterMessage { get; set; }
+
+		private readonly IAccountApplication _accountApplication;
 
 		public AccountModel(IAccountApplication accountApplication)
 		{
@@ -19,18 +22,30 @@ namespace ServiceHost.Pages
 		public void OnGet()
         {
         }
-        public IActionResult OnPostLogin(Login command)
+		//logining
+		public IActionResult OnPostLogin(Login command)
 		{
 			var result = _accountApplication.Login(command);
 			if (result.IsSucceed)
 				return RedirectToPage("/Index");
 
-			Message = result.Message;
+			LoginMessage = result.Message;
 			return RedirectToPage("/Account");
 		}
-		public IActionResult OnGetLogin()
+		//Registering
+		public IActionResult OnPostRegister(RegisterAccount command)
 		{
-			 _accountApplication.LogOut();
+			var result = _accountApplication.Register(command);
+			if (result.IsSucceed)
+				return RedirectToPage("/Index");
+
+			RegisterMessage = result.Message;
+			return RedirectToPage("/Account");
+		}
+		//LogOuting
+		public IActionResult OnGetLogOut()
+		{
+			_accountApplication.LogOut();
 
 			return RedirectToPage("/Index");
 

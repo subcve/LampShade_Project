@@ -1,4 +1,5 @@
 ﻿using System.Security.Claims;
+using _01_Framework.Infrastructure;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
@@ -12,6 +13,29 @@ namespace _01_Framework.Application
 		public AuthHelper(IHttpContextAccessor contextAccessor)
 		{
 			_contextAccessor = contextAccessor;
+		}
+
+		public AuthViewModel GetCurrentAccountInfo()
+		{
+			AuthViewModel result = new();
+
+			if (IsAuthenticated())
+			{
+				result.Id = long.Parse(_contextAccessor.HttpContext.User.Claims.FirstOrDefault(c => c.Type == "AccountId").Value);
+				result.RoleId = long.Parse(_contextAccessor.HttpContext.User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role).Value);
+				result.Fullname = _contextAccessor.HttpContext.User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Name).Value;
+				result.Username = _contextAccessor.HttpContext.User.Claims.FirstOrDefault(c => c.Type == "Username").Value;
+				result.Role = Roles.GetRoleBy(result.RoleId);
+			}
+
+			return result;
+		}
+
+		public string GetCurrentAccountRole()
+		{
+			if (IsAuthenticated())
+				return _contextAccessor.HttpContext.User.Claims.FirstOrDefault(c=>c.Type == ClaimTypes.Role).Value;
+			return "";
 		}
 
 		public bool IsAuthenticated()

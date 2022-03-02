@@ -2,21 +2,24 @@
 using _01_Framework.Application;
 using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domian.AccountAgg;
+using AccountManagement.Domian.RoleAgg;
 
 namespace AccountManagement.Application
 {
 	public class AccountApplication : IAccountApplication
 	{
 		private readonly IAccountRepository _accountRepository;
+		private readonly IRoleRepository _roleRepository;
 		private readonly IPasswordHasher _passwordHasher;
 		private readonly IFileUpload _fileUpload;
 		private readonly IAuthHelper _authHelper;
-		public AccountApplication(IAccountRepository accountRepository, IPasswordHasher passwordHasher, IFileUpload fileUpload, IAuthHelper authHelper)
+		public AccountApplication(IAccountRepository accountRepository, IPasswordHasher passwordHasher, IFileUpload fileUpload, IAuthHelper authHelper, IRoleRepository roleRepository)
 		{
 			_accountRepository = accountRepository;
 			_passwordHasher = passwordHasher;
 			_fileUpload = fileUpload;
 			_authHelper = authHelper;
+			_roleRepository = roleRepository;
 		}
 
 		public OperationResult ChangePassword(ChangePassword command)
@@ -82,7 +85,14 @@ namespace AccountManagement.Application
 			(bool Verified, bool NeedsUpgrade) result = _passwordHasher.Check(account.Password, command.Password);
 			if (!result.Verified)
 				return operation.Failed("رمز و یا نام کاربری وارد شده اشتباه می باشد");
-			var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname, account.UserName);
+
+			var permissons = _roleRepository
+				.Get(account.RoleId)
+				.Permissions
+				.Select(c=>c.Code)
+				.ToList();
+
+			var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname, account.UserName,permissons);
 
 			_authHelper.SignIn(authViewModel);
 			return operation.Succeed();

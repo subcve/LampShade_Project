@@ -15,6 +15,8 @@ using _01_Query.Contracts.Slide;
 using _01_Query.Query;
 using _01_Query.Contracts.ProductCategory;
 using _01_Query.Contracts.Product;
+using _01_Framework.Infrastructure;
+using ShopManagement.Configuration.Permissions;
 
 namespace ShopManagement.Configuration
 {
@@ -36,6 +38,8 @@ namespace ShopManagement.Configuration
             services.AddTransient<ISlideRepository, SlideRepository>();
             services.AddTransient<ISlideApplication, SlideApplication>();
             services.AddTransient<ISlideQuery, SlideQuery>();
+
+            services.AddTransient<IPermissionExposer, ShopPermissionExposer>();
 
             services.AddDbContext<ShopContext>(c 
                 => c.UseSqlServer(connectionString));

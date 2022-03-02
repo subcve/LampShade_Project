@@ -7,13 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Areas\Administration\Pages\Accounts\Role\**" />
     <Compile Remove="wwwroot\NewFolder\**" />
-    <Content Remove="Areas\Administration\Pages\Accounts\Role\**" />
     <Content Remove="wwwroot\NewFolder\**" />
-    <EmbeddedResource Remove="Areas\Administration\Pages\Accounts\Role\**" />
     <EmbeddedResource Remove="wwwroot\NewFolder\**" />
-    <None Remove="Areas\Administration\Pages\Accounts\Role\**" />
     <None Remove="wwwroot\NewFolder\**" />
   </ItemGroup>
 

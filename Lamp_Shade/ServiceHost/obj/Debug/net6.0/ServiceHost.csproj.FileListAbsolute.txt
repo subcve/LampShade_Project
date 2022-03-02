@@ -195,3 +195,4 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\A
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\AccountManagement.Application.Contracts.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\AccountManagement.Domian.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\bin\Debug\net6.0\Newtonsoft.Json.dll

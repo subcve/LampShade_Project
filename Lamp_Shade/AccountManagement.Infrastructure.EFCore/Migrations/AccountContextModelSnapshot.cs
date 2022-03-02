@@ -113,10 +113,6 @@ namespace AccountManagement.Infrastructure.EFCore.Migrations
                             b1.Property<int>("Code")
                                 .HasColumnType("int");
 
-                            b1.Property<string>("Name")
-                                .IsRequired()
-                                .HasColumnType("nvarchar(max)");
-
                             b1.Property<long>("RoleId")
                                 .HasColumnType("bigint");
 

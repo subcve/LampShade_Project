@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SBT6j7XuvRSPHNxtyJ0rZR9yw+Ig0YYfmZSdhLM8tMpJmtU2MHmG7xY9SISEU5i4kBRfT/2ezAJkIbYB1sN1FA==",
+  "dgSpecHash": "v46rPqe0Yh+SnFHZCCZXabnY40p277IyZ5EZ5+O0Lw5xKpNqbMEulbELicau34vYIXVGMm+l2aC7zC/lBJOAcg==",
   "success": true,
   "projectFilePath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ShopManagement.Application\\ShopManagement.Application.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,7 @@
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\Peyman\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

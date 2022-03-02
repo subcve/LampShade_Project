@@ -34,7 +34,7 @@
     <!-- Custom Files -->
     <link href="~/AdminTheme/assets/css/persian-datepicker.css" rel="stylesheet" />
     <link href="~/AdminTheme/assets/css/NotifStyle.css" rel="stylesheet">
-
+    @RenderSectionAsync("Css", false)
     <link href="~/AdminTheme/assets/css/helper.css" rel="stylesheet" type="text/css" />
     <link href="~/AdminTheme/assets/css/style.css" rel="stylesheet" type="text/css" />
     <script src="~/AdminTheme/assets/js/modernizr.min.js"></script>
@@ -232,7 +232,7 @@
     <script src="~/AdminTheme/assets/js/persian-date.js"></script>
     <script src="~/AdminTheme/assets/js/persian-datepicker.js"></script>
     <script src="~/AdminTheme/assets/js/Index.var.js"></script>
-    @RenderSection("Scripts", false)
+    @RenderSectionAsync("Scripts", false)
 
     <script>
         $('.observer-example').persianDatepicker({

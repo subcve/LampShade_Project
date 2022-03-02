@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qqZVPHxPupVjjZBWEHuWZ1Z1UPVNEfvCmPluRW9UzJdZTu6RFt47WhvZTg9Efp+2a+160FcB7V5lO0e9AFKqVQ==",
+  "dgSpecHash": "6kwUJ7Ed8sY98BEQnoNczTM6GpUjTYHv983nzD376HOWj+dljw+PKRR2d0n3xlPDxEqYAz0FzQcG7JYmk22Lag==",
   "success": true,
   "projectFilePath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\ServiceHost\\ServiceHost.csproj",
   "expectedPackageFiles": [
@@ -53,6 +53,7 @@
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Peyman\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",

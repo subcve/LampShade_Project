@@ -2,9 +2,10 @@
 {
 	public interface IAuthHelper
 	{
+		AuthViewModel GetCurrentAccountInfo();
 		void SignIn(AuthViewModel account);
 		string GetCurrentAccountRole();
-		AuthViewModel GetCurrentAccountInfo();
+		List<int> GetAccountPermissions();
 		bool IsAuthenticated();
 		void SignOut();
 	}

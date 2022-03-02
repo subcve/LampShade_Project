@@ -21,6 +21,7 @@ namespace AccountManagement.Infrastructure.EFCore.Mapping
                {
                    modelBuilder.ToTable("RolePermissions");
                    modelBuilder.HasKey(c => c.Id);
+                   modelBuilder.Ignore(c => c.Name);
                    modelBuilder.WithOwner(c => c.Role);
                });
         }

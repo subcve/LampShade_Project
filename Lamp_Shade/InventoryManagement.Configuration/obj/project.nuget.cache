@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aw1XmjcD8hWnMcban7Rq/mXzaqa2NRUuaMQqaBPgB584eC7+2IhzTMaJIRdEX+6X+AFp1YTUtqA+rWT1UD7f7g==",
+  "dgSpecHash": "cTEGDyaULoaPo7oyRhLXg+sr7MfWEdmGuzGeYrdcUNWHu7MLGVVLmczykCxsCx76SQ3Gb20tuJnjtAVcmc1/RQ==",
   "success": true,
   "projectFilePath": "D:\\RECOVERY\\#Root\\01_FinalProject\\Code\\Lamp_Shade\\InventoryManagement.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj",
   "expectedPackageFiles": [
@@ -51,6 +51,7 @@
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Peyman\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Peyman\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",

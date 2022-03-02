@@ -48,6 +48,9 @@ builder.Services.AddAuthorization(optioins => {
 });
 
 builder.Services.AddRazorPages()
+    .AddMvcOptions(option => {
+        option.Filters.Add<SecurityPageFilter>();
+        })
     .AddRazorPagesOptions(options => {
 
         options.Conventions.AuthorizeAreaFolder("Administration", "/", "AdminArea");

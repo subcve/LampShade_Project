@@ -80,7 +80,7 @@
                                                                 <span class="sale">@item.DiscountRate%</span>
                                                             </div>
                                                         }
-                                                        <a href="single-product.html">
+                                                        <a asp-page="/Product" asp-route-id="@item.Slug">
                                                             <img src="@item.Picture" class="img-fluid"
                                                             alt="@item.PictureAlt" title="@item.PictureTitle">
                                                         </a>
@@ -100,7 +100,7 @@
                                                         </div>
 
                                                         <h2 class="single-grid-product__title">
-                                                            <a asp-page="/ProductDetails">@item.Name</a>
+                                                            <a asp-page="/Product" asp-route-id="@item.Slug">@item.Name</a>
                                                         </h2>
                                                         <p class="single-grid-product__price">
                                                             @if (item.HasDiscount)
@@ -121,23 +121,6 @@
                                             </div>
                                         }
                                     </div>
-
-                                </div>
-
-                                <div class="pagination-area">
-                                    @*<div class="pagination-area__left">
-                                        Showing 1 to 9 of 11 (2 Pages)
-                                    </div>
-                                    <div class="pagination-area__right">
-                                        <ul class="pagination-section">
-                                            <li>
-                                                <a class="active" href="#">1</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">2</a>
-                                            </li>
-                                        </ul>
-                                    </div>*@
                                 </div>
                             </div>
                         </div>

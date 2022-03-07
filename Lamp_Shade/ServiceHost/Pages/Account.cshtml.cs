@@ -11,7 +11,7 @@ namespace ServiceHost.Pages
 
 		[TempData]
 		public string RegisterMessage { get; set; }
-
+		
 		private readonly IAccountApplication _accountApplication;
 
 		public AccountModel(IAccountApplication accountApplication)
@@ -20,8 +20,8 @@ namespace ServiceHost.Pages
 		}
 
 		public void OnGet()
-        {
-        }
+		{
+		}
 		//logining
 		public IActionResult OnPostLogin(Login command)
 		{

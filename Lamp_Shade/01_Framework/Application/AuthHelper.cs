@@ -37,7 +37,7 @@ namespace _01_Framework.Application
 		public string GetCurrentAccountRole()
 		{
 			if (IsAuthenticated())
-				return _contextAccessor.HttpContext.User.Claims.FirstOrDefault(c=>c.Type == ClaimTypes.Role).Value;
+				return _contextAccessor.HttpContext.User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role).Value;
 			return "";
 		}
 
@@ -70,20 +70,24 @@ namespace _01_Framework.Application
 			};
 
 			var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+			
+			var expireDate = DateTimeOffset.UtcNow.AddDays(1);
+			if (account.RememberMe == true)
+				expireDate = DateTimeOffset.UtcNow.AddDays(7);
 
 			var authProperties = new AuthenticationProperties
 			{
-				ExpiresUtc = DateTimeOffset.UtcNow.AddDays(1)
+				ExpiresUtc = expireDate
 			};
 
-			_contextAccessor.HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+		_contextAccessor.HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
 				new ClaimsPrincipal(claimsIdentity),
 				authProperties);
 		}
 
-		public void SignOut()
-		{
-			_contextAccessor.HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-		}
+	public void SignOut()
+	{
+		_contextAccessor.HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 	}
+}
 }

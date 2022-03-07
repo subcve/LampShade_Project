@@ -1,6 +1,5 @@
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Configuration.deps.json
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Configuration.dll
-D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\bin\Debug\net6.0\ref\DiscountManagement.Configuration.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Configuration.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\bin\Debug\net6.0\0_Framework.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
@@ -27,3 +26,4 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configurati
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\obj\Debug\net6.0\DiscountManagement.Configuration.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\obj\Debug\net6.0\ref\DiscountManagement.Configuration.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\obj\Debug\net6.0\DiscountManagement.Configuration.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\obj\Debug\net6.0\refint\DiscountManagement.Configuration.dll

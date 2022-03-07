@@ -1,6 +1,5 @@
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\01_LampShadeQuery.deps.json
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\01_LampShadeQuery.dll
-D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\ref\01_LampShadeQuery.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\01_LampShadeQuery.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\0_Framework.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
@@ -43,3 +42,4 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\Comm
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\CommentManagement.Infrastructure.EFCore.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\CommentManagement.Application.Contracts.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\CommentManagement.Domain.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\obj\Debug\net6.0\refint\01_LampShadeQuery.dll

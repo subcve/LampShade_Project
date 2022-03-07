@@ -92,7 +92,10 @@ namespace AccountManagement.Application
 				.Select(c=>c.Code)
 				.ToList();
 
-			var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname, account.UserName,permissons);
+			var authViewModel = new AuthViewModel(account.Id, account.RoleId, account.Fullname, account.UserName, permissons)
+			{
+				RememberMe = command.RememberMe,
+			};
 
 			_authHelper.SignIn(authViewModel);
 			return operation.Succeed();

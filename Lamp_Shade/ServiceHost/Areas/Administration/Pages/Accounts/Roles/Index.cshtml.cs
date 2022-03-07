@@ -2,7 +2,7 @@ using AccountManagement.Application.Contracts.Role;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace ServiceHost.Areas.Administration.Pages.Accounts.Account.Role
+namespace ServiceHost.Areas.Administration.Pages.Accounts.Roles
 {
     public class IndexModel : PageModel
     {

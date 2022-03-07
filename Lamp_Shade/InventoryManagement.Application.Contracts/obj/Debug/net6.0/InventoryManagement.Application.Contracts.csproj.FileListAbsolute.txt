@@ -1,6 +1,5 @@
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Application.Contracts\bin\Debug\net6.0\InventoryManagement.Application.Contracts.deps.json
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Application.Contracts\bin\Debug\net6.0\InventoryManagement.Application.Contracts.dll
-D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Application.Contracts\bin\Debug\net6.0\ref\InventoryManagement.Application.Contracts.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Application.Contracts\bin\Debug\net6.0\InventoryManagement.Application.Contracts.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Application.Contracts\bin\Debug\net6.0\0_Framework.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Application.Contracts\bin\Debug\net6.0\0_Framework.pdb
@@ -15,3 +14,4 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Applicatio
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Application.Contracts\obj\Debug\net6.0\InventoryManagement.Application.Contracts.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Application.Contracts\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Application.Contracts\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Application.Contracts\obj\Debug\net6.0\refint\InventoryManagement.Application.Contracts.dll

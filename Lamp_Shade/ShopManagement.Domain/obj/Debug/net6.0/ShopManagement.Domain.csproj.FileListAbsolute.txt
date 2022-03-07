@@ -17,7 +17,6 @@ D:\C# Projects\Lamp_Shade\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.
 D:\C# Projects\Lamp_Shade\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Domain.deps.json
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Domain.dll
-D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\bin\Debug\net6.0\ref\ShopManagement.Domain.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Domain.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\bin\Debug\net6.0\0_Framework.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
@@ -32,3 +31,4 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\obj\Debu
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\obj\Debug\net6.0\ref\ShopManagement.Domain.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ShopManagement.Domain\obj\Debug\net6.0\refint\ShopManagement.Domain.dll

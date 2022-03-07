@@ -6,6 +6,7 @@ using CommentManagement.Infrastructure.EFCore;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Application.Contracts.Order;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore;
 
@@ -58,6 +59,7 @@ namespace _01_Query.Query
 			{
 				var price = productInventory.UnitPrice;
 				product.Price = price.ToMoney();
+				product.DoublePrice = price;
 				var productDiscount = discount.FirstOrDefault(c => c.ProductId == product.Id);
 				if (productDiscount != null)
 				{
@@ -182,5 +184,17 @@ namespace _01_Query.Query
 			}
 			return products;
 		}
+		public List<CartItem> CheckInventoryStatus(List<CartItem> cartItems)
+		{
+			var inventory = _inventoryContext.Inventory.Select(c => new { c.ProductId, c.InStock }).ToList();
+			
+			foreach (var cartItem in cartItems)
+			{
+					if (inventory.Any(c => c.ProductId == cartItem.Id && c.InStock && inventory.Count >= cartItem.Count))
+						cartItem.IsInStock = true;
+			}
+			return cartItems;
+		}
+		
 	}
 }

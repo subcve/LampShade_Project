@@ -8,6 +8,7 @@
 		public string Fullname { get; set; }
 		public string Username { get; set; }
 		public List<int> Permissions { get; set; }
+		public bool RememberMe { get; set; }
 		public AuthViewModel()
 		{
 
@@ -19,6 +20,7 @@
 			Fullname = fullname;
 			Username = username;
 			Permissions = permissions;
+			RememberMe = false;
 		}
 	}
 }

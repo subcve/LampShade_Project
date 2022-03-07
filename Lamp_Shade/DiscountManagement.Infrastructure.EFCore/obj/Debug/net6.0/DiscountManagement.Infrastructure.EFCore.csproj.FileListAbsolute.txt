@@ -1,7 +1,6 @@
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.deps.json
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.runtimeconfig.json
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.dll
-D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\ref\DiscountManagement.Infrastructure.EFCore.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\0_Framework.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Infrastructure.EFCore\bin\Debug\net6.0\DiscountManagement.Application.Contracts.dll
@@ -25,3 +24,4 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Infrastruct
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Infrastructure.EFCore\obj\Debug\net6.0\ref\DiscountManagement.Infrastructure.EFCore.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Infrastructure.EFCore\obj\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Infrastructure.EFCore\obj\Debug\net6.0\DiscountManagement.Infrastructure.EFCore.genruntimeconfig.cache
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Infrastructure.EFCore\obj\Debug\net6.0\refint\DiscountManagement.Infrastructure.EFCore.dll

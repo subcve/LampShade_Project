@@ -5,7 +5,6 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configurat
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.csproj.CoreCompileInputs.cache
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.deps.json
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.dll
-D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\bin\Debug\net6.0\ref\InventoryManagement.Infrastructure.Configuration.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\bin\Debug\net6.0\0_Framework.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Application.Contracts.dll
@@ -27,3 +26,4 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configurat
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Application.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Application.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\obj\Debug\net6.0\refint\InventoryManagement.Infrastructure.Configuration.dll

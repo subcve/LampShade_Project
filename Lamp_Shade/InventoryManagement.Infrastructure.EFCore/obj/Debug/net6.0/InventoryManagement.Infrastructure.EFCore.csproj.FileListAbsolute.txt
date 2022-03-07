@@ -6,7 +6,6 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Infrastruc
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.deps.json
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.runtimeconfig.json
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.dll
-D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\ref\InventoryManagement.Infrastructure.EFCore.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\0_Framework.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Infrastructure.EFCore\bin\Debug\net6.0\InventoryManagement.Application.Contracts.dll
@@ -25,3 +24,4 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Infrastruc
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net6.0\ref\InventoryManagement.Infrastructure.EFCore.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net6.0\InventoryManagement.Infrastructure.EFCore.genruntimeconfig.cache
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Infrastructure.EFCore\obj\Debug\net6.0\refint\InventoryManagement.Infrastructure.EFCore.dll

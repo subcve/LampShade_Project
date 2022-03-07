@@ -1,0 +1,98 @@
+﻿@page
+@using _0_Framework.Application
+@model ServiceHost.Pages.CartModel
+@{
+    ViewData["Title"] = "سید خرید";
+}
+<div class="breadcrumb-area section-space--half">
+    <div class="container wide">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb-wrapper breadcrumb-bg">
+                    <div class="breadcrumb-content">
+                        <h2 class="breadcrumb-content__title">سبد خرید شما</h2>
+                        <ul class="breadcrumb-content__page-map">
+                            <li>
+                                <a asp-page="/Index">صفحه اصلی</a>
+                            </li>
+                            <li class="active">سبد خرید</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page-content-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!--=======  page wrapper  =======-->
+                <div class="page-wrapper">
+                    @foreach (var item in Model.CartItems.Where(c=>!c.IsInStock))
+                    {
+                        <div class="alert alert-warning"><i class="fa fa-warning"></i>تعداد کالای خواسته شده <strong>@item.Name</strong> در انبار موجود نمی باشد.</div>
+                    }
+                    <div class="page-content-wrapper">
+                            <div class="cart-table table-responsive">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th class="pro-thumbnail">عکس</th>
+                                        <th class="pro-title">محصول</th>
+                                        <th class="pro-price">قیمت واحد</th>
+                                        <th class="pro-quantity">تعداد</th>
+                                        <th class="pro-subtotal">قیمت کل</th>
+                                        <th class="pro-remove">حذف</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                   
+                                       @foreach (var item in Model.CartItems)
+                                      {
+                                           <tr>
+                                           <td class="pro-thumbnail">
+                                            <a href="#">
+                                                <img src="@item.Picture" class="img-fluid" alt="محصول : @item.Name">
+                                            </a>
+                                        </td>
+                                        <td class="pro-title">
+                                            <a href="single-product.html">@item.Name</a>
+                                        </td>
+                                        <td class="pro-price">
+                                            <span>@item.UnitPrice.ToMoney()</span>
+                                        </td>
+                                        <td class="pro-quantity">
+                                            <div class="quantity-selection">
+                                                <input type="number" value="@item.Count" min="1" onchange="UpdateCartItemCount('@item.Id' , 'item-totalPrice-@item.Id' , this.value)">
+                                            </div>
+                                        </td>
+                                        <td class="pro-subtotal">
+                                            <span id="item-totalPrice-@item.Id">@item.TotalPrice.ToMoney()</span>
+                                        </td>
+                                        <td class="pro-remove">
+                                            <a asp-page-handler="RemoveFormCart" asp-route-id="@item.Id">
+                                                <i class="fa fa-trash-o"></i>
+                                            </a>
+                                        </td>
+                                        </tr>
+                                      }
+                                    </tbody>
+                                </table>
+                            </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-12 d-flex">
+                                <div class="cart-summary">
+                                    <div class="cart-summary-button">
+                                        <a class="btn btn-warning waves-effect waves-light m-b-5" style="width: 280px;height: 45px;border-radius: 50px;font-weight: bold;" asp-page-handler="GoToCheckOut">تکمیل فرایند خرید</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

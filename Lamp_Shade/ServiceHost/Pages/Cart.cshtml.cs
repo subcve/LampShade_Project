@@ -24,10 +24,9 @@ namespace ServiceHost.Pages
         {
             var value = Request.Cookies[cookieName];
             var cartItems = serializer.Deserialize<List<CartItem>>(value);
-			foreach (var item in cartItems)
-			{
-                item.TotalPrice = item.UnitPrice * item.Count;
-			}
+            foreach (var item in cartItems)
+                item.CalculateTotalPrice(item.UnitPrice, item.Count);
+
             CartItems = _productQuery.CheckInventoryStatus(cartItems);
         }
         public IActionResult RemoveFromCart(long id)
@@ -46,9 +45,8 @@ namespace ServiceHost.Pages
             var value = Request.Cookies[cookieName];
             var cartItems = serializer.Deserialize<List<CartItem>>(value);
             foreach (var item in cartItems)
-            {
-                item.TotalPrice = item.UnitPrice * item.Count;
-            }
+                item.CalculateTotalPrice(item.UnitPrice, item.Count);
+
             CartItems = _productQuery.CheckInventoryStatus(cartItems);
             if(CartItems.Any(c=>!c.IsInStock))
                 return RedirectToPage("/Cart");

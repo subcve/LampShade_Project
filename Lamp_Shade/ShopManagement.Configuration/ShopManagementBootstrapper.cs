@@ -17,6 +17,7 @@ using _01_Query.Contracts.ProductCategory;
 using _01_Query.Contracts.Product;
 using _01_Framework.Infrastructure;
 using ShopManagement.Configuration.Permissions;
+using _01_Query.Contracts;
 
 namespace ShopManagement.Configuration
 {
@@ -39,6 +40,7 @@ namespace ShopManagement.Configuration
             services.AddTransient<ISlideApplication, SlideApplication>();
             services.AddTransient<ISlideQuery, SlideQuery>();
 
+            services.AddTransient<ICartCalculatorService, CartCalculatorService>();
             services.AddTransient<IPermissionExposer, ShopPermissionExposer>();
 
             services.AddDbContext<ShopContext>(c 

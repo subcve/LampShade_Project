@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _01_Framework.Infrastructure
+﻿namespace _01_Framework.Infrastructure
 {
-	public class Roles
+    public class Roles
 	{
 		public const string Administration = "1";
 		public const string SystemUser = "2";
-		public const string ContentUploader = "3";
+		public const string ColleagueUser = "3";
 
 		public static string GetRoleBy(long roleId)
 		{
@@ -18,14 +12,10 @@ namespace _01_Framework.Infrastructure
 			{
 				case 1:
 					return "مدیر سیستم";
-					break;
-
 				case 3:
-					return "محتوا گذار";
-					break;
+					return "کاربر همکار";
 				default:
 					return "";
-					break;
 			}
 		}
 	}

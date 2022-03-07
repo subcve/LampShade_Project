@@ -1,5 +1,7 @@
 using _01_Framework.Application;
 using _01_Framework.Infrastructure;
+using _01_Query.Contracts;
+using _01_Query.Query;
 using AccountManagement.Infrastructure.Configuration;
 using BlogManagement.Infrastructure.Configuration;
 using CommentManagement.Infrastructure.Configuration;

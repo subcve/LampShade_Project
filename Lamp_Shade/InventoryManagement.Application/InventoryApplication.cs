@@ -1,4 +1,4 @@
-﻿using _0_Framework.Application;
+﻿using _01_Framework.Application;
 using InventoryManagement.Application.Contracts.Inventory;
 using InventoryManagement.Domain.InventoryAgg;
 
@@ -7,12 +7,13 @@ namespace InventoryManagement.Application
     public class InventoryApplication : IInventoryApplication
     {
         private readonly IInventoryRepository _inventoryRepository;
-
-        public InventoryApplication(IInventoryRepository inventoryRepository)
-        {
-            _inventoryRepository = inventoryRepository;
-        }
-        public OperationResult Create(CreateInventory command)
+        private readonly IAuthHelper _authHelper;
+		public InventoryApplication(IInventoryRepository inventoryRepository, IAuthHelper authHelper)
+		{
+			_inventoryRepository = inventoryRepository;
+			_authHelper = authHelper;
+		}
+		public OperationResult Create(CreateInventory command)
         {
             var operation = new OperationResult();
             if (command == null)
@@ -80,7 +81,7 @@ namespace InventoryManagement.Application
 
             if (inventory.CalculateCurrentCount()<command.Count)
                 return operation.Failed("مقدار مورد نظر از موجودی انبار بیشتر است");
-            const long operatorId = 1;
+            var operatorId = _authHelper.GetCurrentAccountId();
             inventory.Reduce(command.Count, operatorId, command.Description, 0);
             _inventoryRepository.SaveChanges();
             return operation.Succeed();
@@ -94,7 +95,7 @@ namespace InventoryManagement.Application
                 return operation.Failed(ApplicationMessages.NullRecord);
 
 
-            const long operatorId = 1;
+            var operatorId = _authHelper.GetCurrentAccountId();
 
             foreach (var item in command)
             {

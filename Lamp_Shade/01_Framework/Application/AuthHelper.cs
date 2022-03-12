@@ -89,5 +89,12 @@ namespace _01_Framework.Application
 	{
 		_contextAccessor.HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 	}
-}
+
+		public long GetCurrentAccountId()
+		{
+			if (IsAuthenticated())
+				return long.Parse(_contextAccessor.HttpContext.User.Claims.FirstOrDefault(c => c.Type == "AccountId").Value);
+			return 0;
+		}
+	}
 }

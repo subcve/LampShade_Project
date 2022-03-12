@@ -4,7 +4,7 @@ using InventoryManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Infrastructure.EFCore;
-using _0_Framework.Application;
+using _01_Framework.Application;
 using DiscountManagement.Infrastructure.EFCore;
 
 namespace _01_Query.Query

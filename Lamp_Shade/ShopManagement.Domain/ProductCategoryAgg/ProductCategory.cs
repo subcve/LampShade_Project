@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using _0_Framework.Domain;
+using _01_Framework.Domain;
 using ShopManagement.Domain.ProductAgg;
 
 namespace ShopManagement.Domain.ProductCategoryAgg

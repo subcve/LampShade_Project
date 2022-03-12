@@ -1,4 +1,4 @@
-﻿using _0_Framework.Domain;
+﻿using _01_Framework.Domain;
 using AccountManagement.Application.Contracts.Account;
 
 namespace AccountManagement.Domian.AccountAgg
@@ -7,6 +7,7 @@ namespace AccountManagement.Domian.AccountAgg
 	{
 		EditAccount GetDetails(long id);
 		Account GetBy(string userName);
+		List<AccountViewModel> GetAllAccounts();
 		List<AccountViewModel> Search(AccountSearchModel searchModel);
 	}
 }

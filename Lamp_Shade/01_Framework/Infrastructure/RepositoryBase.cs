@@ -1,8 +1,8 @@
-﻿using _0_Framework.Domain;
+﻿using _01_Framework.Domain;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
-namespace _0_Framework.Infrastructure
+namespace _01_Framework.Infrastructure
 {
 	public class RepositoryBase<TKey, T> : IRepository<TKey, T> where T : class
     {

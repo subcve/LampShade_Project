@@ -1,5 +1,5 @@
-﻿using _0_Framework.Application;
-using _0_Framework.Infrastructure;
+﻿using _01_Framework.Application;
+using _01_Framework.Infrastructure;
 using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domian.AccountAgg;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +15,11 @@ namespace AccountManagement.Infrastructure.EFCore.Repository
 		public AccountRepository(AccountContext context) : base(context)
 		{
 			_context = context;
+		}
+
+		public List<AccountViewModel> GetAllAccounts()
+		{
+			return _context.Accounts.Select(c => new AccountViewModel { Id = c.Id, Fullname = c.Fullname }).ToList();
 		}
 
 		public Account GetBy(string userName)

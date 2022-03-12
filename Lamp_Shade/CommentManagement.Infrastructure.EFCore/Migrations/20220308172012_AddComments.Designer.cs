@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CommentManagement.Infrastructure.EFCore.Migrations
 {
     [DbContext(typeof(CommentContext))]
-    [Migration("20220218092425_CommentRefactoring")]
-    partial class CommentRefactoring
+    [Migration("20220308172012_AddComments")]
+    partial class AddComments
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

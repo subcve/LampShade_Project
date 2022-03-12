@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using _0_Framework.Application;
+using _01_Framework.Application;
 using ShopManagement.Application.Contracts.Product;
 
 namespace InventoryManagement.Application.Contracts.Inventory

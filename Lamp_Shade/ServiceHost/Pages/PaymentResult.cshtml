@@ -1,0 +1,35 @@
+﻿@page
+@model ServiceHost.Pages.PaymentResultModel
+@{
+	ViewData["Title"] = "نتیجه ی پرداخت";
+}
+<div class="page-content-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				@if (Model.Result.IsSuccesful)
+				{
+					<div class="alert alert-success">
+						<p>
+							@Model.Result.Message
+						</p>
+						@if (string.IsNullOrWhiteSpace(Model.Result.IssueTrackingNo))
+						{
+							<p>
+								شماره پیگیری : <strong>@Model.Result.IssueTrackingNo</strong>
+							</p>
+						}
+					</div>
+				}
+				else
+				{
+					<div class="alert alert-danger">
+						<p>
+							<i class="fa fa-warning"></i>@Model.Result.Message
+						</p>
+					</div>
+				}
+			</div>
+		</div>
+	</div>
+</div>

@@ -18,6 +18,10 @@ using _01_Query.Contracts.Product;
 using _01_Framework.Infrastructure;
 using ShopManagement.Configuration.Permissions;
 using _01_Query.Contracts;
+using ShopManagement.Application.Contracts.Order;
+using ShopManagement.Domain.OrderAgg;
+using ShopManagement.Domain.Service;
+using ShopManagement.Infrastructure.Inventory.Acl;
 
 namespace ShopManagement.Configuration
 {
@@ -40,6 +44,11 @@ namespace ShopManagement.Configuration
             services.AddTransient<ISlideApplication, SlideApplication>();
             services.AddTransient<ISlideQuery, SlideQuery>();
 
+            services.AddTransient<IOrderApplication, OrderApplication>();
+            services.AddTransient<IOrderRepository, OrderRepository>();
+
+            services.AddSingleton<ICartService, CartService>();
+            services.AddTransient<IShopInventoryAcl,ShopInventoryAcl>();
             services.AddTransient<ICartCalculatorService, CartCalculatorService>();
             services.AddTransient<IPermissionExposer, ShopPermissionExposer>();
 

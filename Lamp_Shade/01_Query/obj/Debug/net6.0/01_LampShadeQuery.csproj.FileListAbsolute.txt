@@ -43,3 +43,9 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\Comm
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\CommentManagement.Application.Contracts.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\CommentManagement.Domain.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\obj\Debug\net6.0\refint\01_LampShadeQuery.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\AccountManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\AccountManagement.Domian.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\AccountManagement.Application.Contracts.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\AccountManagement.Domian.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\01_Query\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.pdb

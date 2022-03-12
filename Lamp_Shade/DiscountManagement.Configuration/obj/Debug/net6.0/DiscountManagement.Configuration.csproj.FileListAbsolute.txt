@@ -27,3 +27,9 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configurati
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\obj\Debug\net6.0\ref\DiscountManagement.Configuration.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\obj\Debug\net6.0\DiscountManagement.Configuration.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\obj\Debug\net6.0\refint\DiscountManagement.Configuration.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\bin\Debug\net6.0\AccountManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\bin\Debug\net6.0\AccountManagement.Domian.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\bin\Debug\net6.0\AccountManagement.Application.Contracts.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\bin\Debug\net6.0\AccountManagement.Domian.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\DiscountManagement.Configuration\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.pdb

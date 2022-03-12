@@ -27,3 +27,9 @@ D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configurat
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Application.dll
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\bin\Debug\net6.0\InventoryManagement.Application.pdb
 D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\obj\Debug\net6.0\refint\InventoryManagement.Infrastructure.Configuration.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\bin\Debug\net6.0\AccountManagement.Application.Contracts.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\bin\Debug\net6.0\AccountManagement.Domian.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.dll
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\bin\Debug\net6.0\AccountManagement.Application.Contracts.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\bin\Debug\net6.0\AccountManagement.Domian.pdb
+D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\InventoryManagement.Configuration\bin\Debug\net6.0\AccountManagement.Infrastructure.EFCore.pdb

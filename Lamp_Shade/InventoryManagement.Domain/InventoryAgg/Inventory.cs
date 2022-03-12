@@ -1,4 +1,4 @@
-﻿using _0_Framework.Domain;
+﻿using _01_Framework.Domain;
 
 namespace InventoryManagement.Domain.InventoryAgg
 {

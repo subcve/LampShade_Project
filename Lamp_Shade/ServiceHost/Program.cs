@@ -1,4 +1,5 @@
 using _01_Framework.Application;
+using _01_Framework.Application.ZarinPal;
 using _01_Framework.Infrastructure;
 using _01_Query.Contracts;
 using _01_Query.Query;
@@ -28,12 +29,13 @@ AccountManagementBootstrapper.Configure(builder.Services, conecctionString);
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddTransient<IFileUpload, FileUpload>();
 builder.Services.AddTransient<IAuthHelper,AuthHelper>();
+builder.Services.AddTransient<IZarinPalFactory,ZarinPalFactory>();
 builder.Services.AddSingleton<IPasswordHasher,PasswordHasher>();
 builder.Services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
 
 builder.Services.Configure<CookiePolicyOptions>(options => {
     options.CheckConsentNeeded = context => true;
-    options.MinimumSameSitePolicy = SameSiteMode.Strict;
+    options.MinimumSameSitePolicy = SameSiteMode.Lax;
 });
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

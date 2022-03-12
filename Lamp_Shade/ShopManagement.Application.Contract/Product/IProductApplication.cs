@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using _0_Framework.Application;
+using _01_Framework.Application;
 using ShopManagement.Application.Contracts.ProductPicture;
 
 namespace ShopManagement.Application.Contracts.Product

@@ -8,293 +8,301 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ServiceHost
 build_property.RootNamespace = ServiceHost
-build_property.ProjectDir = d:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\
+build_property.ProjectDir = D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost
+build_property.MSBuildProjectDirectory = D:\RECOVERY\#Root\01_FinalProject\Code\Lamp_Shade\ServiceHost
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Account/ChangePassword.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Account/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Account/Create.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Account/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcQWNjb3VudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Account/Edit.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Account/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcQWNjb3VudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Account/Index.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Roles/Create.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Roles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Roles/Edit.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Roles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Roles/Index.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Accounts/Roles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQWNjb3VudHNcUm9sZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Blog/ArticleCategories/Create.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Blog/ArticleCategories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Blog/ArticleCategories/Edit.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Blog/ArticleCategories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Blog/ArticleCategories/Index.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Blog/ArticleCategories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Blog/Articles/Create.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Blog/Articles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Blog/Articles/Edit.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Blog/Articles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Blog/Articles/Index.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Blog/Articles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQmxvZ1xBcnRpY2xlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Comments/Index.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Comments/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcQ29tbWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Discounts/ColleagueDiscounts/Create.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Discounts/ColleagueDiscounts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXENvbGxlYWd1ZURpc2NvdW50c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Discounts/ColleagueDiscounts/Edit.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Discounts/ColleagueDiscounts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXENvbGxlYWd1ZURpc2NvdW50c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Discounts/ColleagueDiscounts/Index.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Discounts/ColleagueDiscounts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXENvbGxlYWd1ZURpc2NvdW50c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Discounts/CustomerDiscounts/Create.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Discounts/CustomerDiscounts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXEN1c3RvbWVyRGlzY291bnRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Discounts/CustomerDiscounts/Edit.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Discounts/CustomerDiscounts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXEN1c3RvbWVyRGlzY291bnRzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Discounts/CustomerDiscounts/Index.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Discounts/CustomerDiscounts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcRGlzY291bnRzXEN1c3RvbWVyRGlzY291bnRzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Index.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Inventory/Create.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Inventory/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Inventory/Edit.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Inventory/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Inventory/Increase.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Inventory/Increase.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XEluY3JlYXNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Inventory/Index.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Inventory/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Inventory/OperationsLog.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Inventory/OperationsLog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XE9wZXJhdGlvbnNMb2cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Inventory/Reduce.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Inventory/Reduce.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XFJlZHVjZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shared/_AdminLayout.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shared/_Menu.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shared/_Menu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hhcmVkXF9NZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/ProductCategories/Create.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/Orders/Items.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxPcmRlcnNcSXRlbXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/ProductCategories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0Q2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/ProductCategories/Edit.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/ProductCategories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0Q2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/ProductCategories/Index.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/ProductCategories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0Q2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/ProductPictures/Create.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/ProductPictures/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0UGljdHVyZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/ProductPictures/Edit.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/ProductPictures/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0UGljdHVyZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/ProductPictures/Index.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/ProductPictures/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0UGljdHVyZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/Products/Create.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/Products/Edit.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/Products/Index.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxQcm9kdWN0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/Slides/Create.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/Slides/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxTbGlkZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/Slides/Edit.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/Slides/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxTbGlkZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/Slides/Index.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/Shop/Slides/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcU2hvcFxTbGlkZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/_ViewImports.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/_ViewStart.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Areas/Administration/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/AccessDenied.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjZXNzRGVuaWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Account.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Account.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWNjb3VudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Article.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Article.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/ArticleCategory.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/ArticleCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0aWNsZUNhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Cart.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/CheckOut.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/CheckOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tPdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Error.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Index.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Privacy.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/PaymentResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudFJlc3VsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Product.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Product.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/ProductCategory.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/ProductCategory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdENhdGVnb3J5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Search.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Components/LatestArrivals/Default.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Components/LatestArrivals/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcTGF0ZXN0QXJyaXZhbHNcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Components/LatestArticles/Default.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Components/LatestArticles/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcTGF0ZXN0QXJ0aWNsZXNcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Components/Menu/Default.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Components/Menu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcTWVudVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Components/ProductCategoryWithProduct/Default.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Components/ProductCategoryWithProduct/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcUHJvZHVjdENhdGVnb3J5V2l0aFByb2R1Y3RcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Components/ProductCategory/Default.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Components/ProductCategory/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcUHJvZHVjdENhdGVnb3J5XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Components/Slide/Default.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Components/Slide/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXENvbXBvbmVudHNcU2xpZGVcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Shared/Components/ProductCategory/Default.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Shared/Components/ProductCategory/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFNoYXJlZFxDb21wb25lbnRzXFByb2R1Y3RDYXRlZ29yeVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Shared/Components/Slide/Default.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Shared/Components/Slide/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFNoYXJlZFxDb21wb25lbnRzXFNsaWRlXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Shared/_Layout.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Shared/_ValidationScriptsPartial.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/_Footer.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Gb290ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/_ViewImports.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/_ViewStart.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/_Layout.cshtml]
+[D:/RECOVERY/\#Root/01_FinalProject/Code/Lamp_Shade/ServiceHost/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-syt8izbppr

@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CommentManagement.Infrastructure.EFCore.Migrations
 {
-    public partial class CommentRefactoring : Migration
+    public partial class AddComments : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

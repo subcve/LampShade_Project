@@ -1,4 +1,4 @@
-﻿using _0_Framework.Application;
+﻿using _01_Framework.Application;
 using _01_Framework.Application;
 using AccountManagement.Application.Contracts.Account;
 using AccountManagement.Domian.AccountAgg;
@@ -109,6 +109,11 @@ namespace AccountManagement.Application
 		public List<AccountViewModel> Search(AccountSearchModel searchModel)
 		{
 			return _accountRepository.Search(searchModel);
+		}
+
+		public List<AccountViewModel> GetAllAccounts()
+		{
+			return _accountRepository.GetAllAccounts();
 		}
 	}
 }

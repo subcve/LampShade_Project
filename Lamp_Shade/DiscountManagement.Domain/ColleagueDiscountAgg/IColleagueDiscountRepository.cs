@@ -1,4 +1,4 @@
-﻿using _0_Framework.Domain;
+﻿using _01_Framework.Domain;
 using DiscountManagement.Application.Contracts.ColleagueDiscount;
 
 namespace DiscountManagement.Domain.ColleagueDiscountAgg

@@ -1,4 +1,4 @@
-﻿using _0_Framework.Application;
+﻿using _01_Framework.Application;
 using System.Collections.Generic;
 
 namespace AccountManagement.Application.Contracts.Account
@@ -12,5 +12,6 @@ namespace AccountManagement.Application.Contracts.Account
 		EditAccount GetDetails(long id);
 		List<AccountViewModel> Search(AccountSearchModel searchModel);
 		void LogOut();
+		List<AccountViewModel> GetAllAccounts();
 	}
 }

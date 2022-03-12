@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <Content Remove="Areas\Administration\Pages\Accounts\Index.cshtml" />
+    <Content Remove="Areas\Administration\Pages\Shop\Orders\Index.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +24,7 @@
     <None Include="Areas\Administration\Pages\Shared\_AdminLayout.cshtml" />
     <None Include="Areas\Administration\Pages\Shared\_Menu.cshtml" />
     <None Include="Areas\Administration\Pages\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="Areas\Administration\Pages\Shop\Orders\Index.cshtml" />
     <None Include="Areas\Administration\Pages\Shop\ProductCategories\Create.cshtml" />
     <None Include="Areas\Administration\Pages\Shop\ProductCategories\Edit.cshtml" />
     <None Include="Areas\Administration\Pages\Shop\ProductCategories\Index.cshtml" />
